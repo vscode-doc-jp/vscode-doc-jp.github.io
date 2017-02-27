@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_9.html</loc>
-    
-    <lastmod>2017-02-27T00:20:15.589Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-02-27T00:06:08.728Z</lastmod>
+    <lastmod>2017-02-27T07:58:40.500Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
     
-    <lastmod>2017-02-27T00:06:06.528Z</lastmod>
+    <lastmod>2017-02-27T07:58:11.670Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
+    
+    <lastmod>2017-02-27T03:37:55.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_9.html</loc>
+    
+    <lastmod>2017-02-27T00:20:15.589Z</lastmod>
     
   </url>
   
@@ -30,23 +37,16 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/versioncontrol.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/keyboard-shortcuts.html</loc>
     
     <lastmod>2017-02-27T00:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/versioncontrol.html</loc>
     
-    <lastmod>2017-02-26T23:59:33.455Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/keyboard-shortcuts.html</loc>
-    
-    <lastmod>2017-02-25T06:05:29.044Z</lastmod>
+    <lastmod>2017-02-27T00:00:00.000Z</lastmod>
     
   </url>
   
@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/intellisense.html</loc>
     
     <lastmod>2017-02-22T00:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/intellisense.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
     
     <lastmod>2017-02-22T00:00:00.000Z</lastmod>
     
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/overview.html</loc>
     
     <lastmod>2017-02-21T00:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
     
     <lastmod>2017-02-21T00:00:00.000Z</lastmod>
     
@@ -219,7 +219,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_3.html</loc>
     
     <lastmod>2017-02-20T14:28:06.000Z</lastmod>
     
@@ -233,7 +233,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_3.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_8.html</loc>
+    
+    <lastmod>2017-02-20T14:28:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
     
     <lastmod>2017-02-20T14:28:06.000Z</lastmod>
     
@@ -241,13 +248,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_7.html</loc>
-    
-    <lastmod>2017-02-20T14:28:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_8.html</loc>
     
     <lastmod>2017-02-20T14:28:06.000Z</lastmod>
     
@@ -282,6 +282,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
+    
+    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
@@ -289,14 +296,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
-    
-    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/windows.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/requirements.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
@@ -310,14 +310,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/windows.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/requirements.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
