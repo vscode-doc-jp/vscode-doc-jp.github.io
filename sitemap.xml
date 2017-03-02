@@ -2,6 +2,230 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-03-02T03:38:19.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
+    
+    <lastmod>2017-03-02T03:32:08.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
+    
+    <lastmod>2017-03-02T03:31:39.225Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/tasks.html</loc>
+    
+    <lastmod>2017-03-02T03:31:16.327Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/tasks_appendix.html</loc>
+    
+    <lastmod>2017-03-02T03:30:56.358Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/node-debugging.html</loc>
+    
+    <lastmod>2017-03-02T03:30:40.789Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/editingevolved.html</loc>
+    
+    <lastmod>2017-03-02T03:29:59.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/debugging.html</loc>
+    
+    <lastmod>2017-03-02T03:29:45.987Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/themes.html</loc>
+    
+    <lastmod>2017-03-02T03:29:32.243Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/userdefinedsnippets.html</loc>
+    
+    <lastmod>2017-03-02T03:29:28.829Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/codebasics.html</loc>
+    
+    <lastmod>2017-03-02T03:29:21.483Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/tools/yocode.html</loc>
+    
+    <lastmod>2017-03-02T03:24:03.356Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/tools/vscecli.html</loc>
+    
+    <lastmod>2017-03-02T03:24:00.664Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/tools/samples.html</loc>
+    
+    <lastmod>2017-03-02T03:23:41.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/mac.html</loc>
+    
+    <lastmod>2017-03-02T03:23:02.004Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
+    
+    <lastmod>2017-03-02T03:22:32.192Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/runtimes/nodejs.html</loc>
+    
+    <lastmod>2017-03-02T03:22:03.798Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/typescript.html</loc>
+    
+    <lastmod>2017-03-02T03:21:23.138Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/tsql.html</loc>
+    
+    <lastmod>2017-03-02T03:21:09.345Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
+    
+    <lastmod>2017-03-02T03:20:51.552Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/php.html</loc>
+    
+    <lastmod>2017-03-02T03:20:36.658Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
+    
+    <lastmod>2017-03-02T03:19:41.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/jsconfig.html</loc>
+    
+    <lastmod>2017-03-02T03:19:34.414Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
+    
+    <lastmod>2017-03-02T03:19:13.217Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    
+    <lastmod>2017-03-02T03:18:35.303Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/dockerfile.html</loc>
+    
+    <lastmod>2017-03-02T03:18:19.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/whyvscode.html</loc>
+    
+    <lastmod>2017-03-02T03:16:30.329Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/integrated-terminal.html</loc>
+    
+    <lastmod>2017-03-02T03:14:14.749Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/extension-gallery.html</loc>
+    
+    <lastmod>2017-03-02T03:13:54.644Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/keybindings.html</loc>
+    
+    <lastmod>2017-03-02T03:10:06.252Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/colorizer.html</loc>
+    
+    <lastmod>2017-03-02T03:09:58.651Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
+    
+    <lastmod>2017-03-02T02:46:48.882Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
     <lastmod>2017-03-02T00:00:10.195Z</lastmod>
@@ -9,7 +233,21 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/overview.html</loc>
+    
+    <lastmod>2017-03-02T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/editor/tabs.html</loc>
+    
+    <lastmod>2017-03-02T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
     
     <lastmod>2017-03-02T00:00:00.000Z</lastmod>
     
@@ -58,37 +296,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-03-01T23:14:53.457Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
-    
-    <lastmod>2017-03-01T23:12:52.513Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/overview.html</loc>
     
     <lastmod>2017-02-28T05:04:56.326Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
-    
-    <lastmod>2017-02-28T01:16:34.280Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
-    
-    <lastmod>2017-02-27T11:54:24.000Z</lastmod>
     
   </url>
   
@@ -142,69 +352,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/node-debugging.html</loc>
-    
-    <lastmod>2017-02-24T12:47:04.036Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/tasks_appendix.html</loc>
-    
-    <lastmod>2017-02-24T12:46:41.336Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/tasks.html</loc>
-    
-    <lastmod>2017-02-24T12:46:30.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/editingevolved.html</loc>
-    
-    <lastmod>2017-02-24T12:46:05.704Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/debugging.html</loc>
-    
-    <lastmod>2017-02-24T12:45:51.477Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/userdefinedsnippets.html</loc>
-    
-    <lastmod>2017-02-24T12:45:30.675Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/themes.html</loc>
-    
-    <lastmod>2017-02-24T12:45:08.651Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/keybindings.html</loc>
-    
-    <lastmod>2017-02-24T12:44:38.752Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/colorizer.html</loc>
-    
-    <lastmod>2017-02-24T12:44:10.966Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/overview.html</loc>
     
     <lastmod>2017-02-23T00:00:00.000Z</lastmod>
@@ -212,14 +359,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/extension-gallery.html</loc>
-    
-    <lastmod>2017-02-22T12:35:20.599Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/intellisense.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
     
     <lastmod>2017-02-22T00:00:00.000Z</lastmod>
     
@@ -233,7 +373,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/intellisense.html</loc>
     
     <lastmod>2017-02-22T00:00:00.000Z</lastmod>
     
@@ -247,41 +387,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/integrated-terminal.html</loc>
-    
-    <lastmod>2017-02-21T07:33:23.978Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
-    
-    <lastmod>2017-02-21T07:12:17.453Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/codebasics.html</loc>
-    
-    <lastmod>2017-02-21T07:04:05.228Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/overview.html</loc>
-    
-    <lastmod>2017-02-21T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
-    
-    <lastmod>2017-02-21T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_3.html</loc>
     
     <lastmod>2017-02-20T14:28:06.000Z</lastmod>
@@ -289,42 +394,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/tools/yocode.html</loc>
-    
-    <lastmod>2017-02-20T11:39:38.300Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/tools/samples.html</loc>
-    
-    <lastmod>2017-02-20T11:35:09.139Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/whyvscode.html</loc>
-    
-    <lastmod>2017-02-20T04:08:23.994Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
-    
-    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
-    
-    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/requirements.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
@@ -338,6 +408,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
+    
+    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/setup/windows.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
@@ -345,7 +422,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/requirements.html</loc>
+    
+    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
@@ -380,65 +464,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/mac.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.741Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/runtimes/office.html</loc>
     
     <lastmod>2017-02-15T07:41:40.737Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/typescript.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.732Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/tsql.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.726Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/php.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.718Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/jsconfig.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.702Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.628Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/dockerfile.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.624Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
-    
-    <lastmod>2017-02-15T07:41:40.620Z</lastmod>
     
   </url>
   
@@ -453,34 +481,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/extension-manifest.html</loc>
     
     <lastmod>2017-02-15T07:41:40.587Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/tools/vscecli.html</loc>
-    
-    <lastmod>2017-02-03T07:14:16.429Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/runtimes/nodejs.html</loc>
-    
-    <lastmod>2017-02-03T07:14:16.380Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
-    
-    <lastmod>2017-02-03T07:14:16.363Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
-    
-    <lastmod>2017-02-03T07:14:16.313Z</lastmod>
     
   </url>
   
