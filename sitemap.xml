@@ -261,14 +261,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/tabs.html</loc>
     
     <lastmod>2017-03-02T00:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/tabs.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/customization/locales.html</loc>
     
     <lastmod>2017-03-02T00:00:00.000Z</lastmod>
     
@@ -331,6 +331,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/versioncontrol.html</loc>
+    
+    <lastmod>2017-02-27T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/html.html</loc>
     
     <lastmod>2017-02-27T00:00:00.000Z</lastmod>
@@ -339,13 +346,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/customization/keyboard-shortcuts.html</loc>
-    
-    <lastmod>2017-02-27T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/versioncontrol.html</loc>
     
     <lastmod>2017-02-27T00:00:00.000Z</lastmod>
     
@@ -415,14 +415,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
-    
-    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
@@ -436,7 +429,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
+    
+    <lastmod>2017-02-20T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
     
     <lastmod>2017-02-20T00:00:00.000Z</lastmod>
     
