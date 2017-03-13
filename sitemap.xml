@@ -2,30 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
     
-    <lastmod>2017-03-09T12:47:45.038Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-03-09T12:47:34.682Z</lastmod>
+    <lastmod>2017-03-13T10:52:21.182Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/cpp.html</loc>
     
-    <lastmod>2017-03-09T12:46:21.092Z</lastmod>
+    <lastmod>2017-03-13T10:50:07.584Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-03-09T00:15:55.395Z</lastmod>
+    <lastmod>2017-03-13T10:47:57.465Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-03-13T10:47:56.273Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/editor/whyvscode.html</loc>
+    
+    <lastmod>2017-03-13T00:00:00.000Z</lastmod>
     
   </url>
   
@@ -159,13 +166,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
     
     <lastmod>2017-03-05T07:23:56.368Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/editor/whyvscode.html</loc>
-    
-    <lastmod>2017-03-05T07:23:36.404Z</lastmod>
     
   </url>
   
