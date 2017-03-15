@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    
+    <lastmod>2017-03-14T08:24:04.279Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-03-14T08:23:51.060Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/memo.html</loc>
     
     <lastmod>2017-03-14T00:31:46.332Z</lastmod>
@@ -16,23 +30,16 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/tools/yocode.html</loc>
+    
+    <lastmod>2017-03-14T00:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/cpp.html</loc>
     
     <lastmod>2017-03-13T10:50:07.584Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
-    
-    <lastmod>2017-03-13T10:47:57.465Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-03-13T10:47:56.273Z</lastmod>
     
   </url>
   
@@ -271,13 +278,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/customization/themes.html</loc>
     
     <lastmod>2017-03-03T00:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/tools/yocode.html</loc>
-    
-    <lastmod>2017-03-02T03:24:03.356Z</lastmod>
     
   </url>
   
