@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-03-30T11:25:45.161Z</lastmod>
+    <lastmod>2017-03-31T11:48:11.685Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
     
-    <lastmod>2017-03-30T11:24:55.646Z</lastmod>
+    <lastmod>2017-03-31T11:39:38.151Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
+    
+    <lastmod>2017-03-31T10:49:00.207Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
+    
+    <lastmod>2017-03-30T11:25:45.161Z</lastmod>
     
   </url>
   
@@ -124,13 +138,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/getstarted/introvideos.html</loc>
     
     <lastmod>2017-03-26T10:37:07.777Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
-    
-    <lastmod>2017-03-25T09:38:15.020Z</lastmod>
     
   </url>
   
@@ -422,14 +429,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
@@ -583,14 +590,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
@@ -621,13 +628,6 @@
     <loc>https://vscode-doc-jp.github.io/index.html</loc>
     
     <lastmod>2017-03-16T11:28:52.778Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
-    
-    <lastmod>2017-03-06T13:51:55.296Z</lastmod>
     
   </url>
   
