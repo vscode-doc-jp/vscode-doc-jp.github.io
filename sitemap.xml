@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/index.html</loc>
+    
+    <lastmod>2017-03-31T13:58:09.555Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
     <lastmod>2017-03-31T11:48:11.685Z</lastmod>
@@ -401,14 +408,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
@@ -621,13 +628,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/api-debugging.html</loc>
     
     <lastmod>2017-03-21T00:02:20.994Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/index.html</loc>
-    
-    <lastmod>2017-03-16T11:28:52.778Z</lastmod>
     
   </url>
   
