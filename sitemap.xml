@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/extension-manifest.html</loc>
+    
+    <lastmod>2017-04-01T21:51:20.720Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
     <lastmod>2017-04-01T13:59:57.161Z</lastmod>
@@ -271,13 +278,6 @@
     <loc>https://vscode-doc-jp.github.io/updates/v1_9.html</loc>
     
     <lastmod>2017-03-24T07:10:34.470Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/extension-manifest.html</loc>
-    
-    <lastmod>2017-03-24T07:10:34.448Z</lastmod>
     
   </url>
   
@@ -597,14 +597,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
