@@ -4,7 +4,35 @@
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-04-01T06:02:03.191Z</lastmod>
+    <lastmod>2017-04-01T13:59:57.161Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/overview.html</loc>
+    
+    <lastmod>2017-04-01T13:36:58.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
+    
+    <lastmod>2017-04-01T11:07:32.861Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
+    
+    <lastmod>2017-04-01T11:03:20.950Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/overview.html</loc>
+    
+    <lastmod>2017-04-01T10:57:55.979Z</lastmod>
     
   </url>
   
@@ -142,13 +170,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
-    
-    <lastmod>2017-03-29T07:34:13.978Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
     
     <lastmod>2017-03-29T07:31:49.729Z</lastmod>
@@ -271,20 +292,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/language-support.html</loc>
     
     <lastmod>2017-03-24T07:10:34.385Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/overview.html</loc>
-    
-    <lastmod>2017-03-24T07:10:34.342Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/overview.html</loc>
-    
-    <lastmod>2017-03-24T07:10:34.320Z</lastmod>
     
   </url>
   
@@ -436,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
@@ -516,13 +523,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/activation-events.html</loc>
     
     <lastmod>2017-03-23T12:54:50.325Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
-    
-    <lastmod>2017-03-23T12:45:32.592Z</lastmod>
     
   </url>
   
