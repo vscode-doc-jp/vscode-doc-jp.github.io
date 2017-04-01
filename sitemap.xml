@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-04-01T02:39:04.059Z</lastmod>
+    <lastmod>2017-04-01T06:02:03.191Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/introvideos.html</loc>
     
-    <lastmod>2017-04-01T02:38:22.077Z</lastmod>
+    <lastmod>2017-04-01T06:01:13.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/other/dotnet.html</loc>
+    
+    <lastmod>2017-04-01T05:19:55.934Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
+    
+    <lastmod>2017-04-01T02:39:04.059Z</lastmod>
     
   </url>
   
@@ -152,13 +166,6 @@
     <loc>https://vscode-doc-jp.github.io/css/accordion.css</loc>
     
     <lastmod>2017-03-26T10:50:45.962Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/introvideos.html</loc>
-    
-    <lastmod>2017-03-26T10:37:07.777Z</lastmod>
     
   </url>
   
@@ -394,13 +401,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/other/dotnet.html</loc>
-    
-    <lastmod>2017-03-24T07:10:33.762Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/php.html</loc>
     
     <lastmod>2017-03-24T07:10:33.704Z</lastmod>
@@ -408,14 +408,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
@@ -436,14 +436,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-03-24T07:10:33.595Z</lastmod>
     
