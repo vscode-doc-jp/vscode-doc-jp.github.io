@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/extension-manifest.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-04-01T21:51:20.720Z</lastmod>
+    <lastmod>2017-04-02T01:50:35.684Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionAPI/extension-manifest.html</loc>
     
-    <lastmod>2017-04-01T13:59:57.161Z</lastmod>
+    <lastmod>2017-04-02T01:48:49.345Z</lastmod>
     
   </url>
   
