@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
+    
+    <lastmod>2017-04-03T13:13:48.701Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
+    
+    <lastmod>2017-04-03T10:44:36.606Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/css/accordion.css</loc>
     
     <lastmod>2017-04-03T10:20:03.222Z</lastmod>
@@ -86,7 +100,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
+    
+    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/debugging.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -100,14 +121,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
-    
-    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -170,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/example-hello-world.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
     
     <lastmod>2017-04-02T04:11:08.021Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/example-hello-world.html</loc>
     
     <lastmod>2017-04-02T04:11:08.021Z</lastmod>
     
@@ -219,13 +233,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
-    
-    <lastmod>2017-04-02T04:11:08.013Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/debugging-extensions.html</loc>
     
     <lastmod>2017-04-02T04:11:08.011Z</lastmod>
@@ -233,14 +240,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
     
     <lastmod>2017-04-02T04:11:08.007Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
     
     <lastmod>2017-04-02T04:11:08.007Z</lastmod>
     
@@ -257,13 +264,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
     
     <lastmod>2017-04-01T11:07:32.861Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
-    
-    <lastmod>2017-04-01T11:03:20.950Z</lastmod>
     
   </url>
   
@@ -520,14 +520,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
@@ -611,14 +611,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/other-javascript-runtimes.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
     
     <lastmod>2017-03-21T00:02:21.271Z</lastmod>
     
