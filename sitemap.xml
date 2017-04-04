@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
-    <lastmod>2017-04-03T13:13:48.701Z</lastmod>
+    <lastmod>2017-04-04T01:03:08.353Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    
+    <lastmod>2017-04-04T00:57:25.274Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-04-04T00:57:20.359Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
     
-    <lastmod>2017-04-03T10:44:36.606Z</lastmod>
+    <lastmod>2017-04-04T00:54:13.856Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
+    
+    <lastmod>2017-04-03T13:13:48.701Z</lastmod>
     
   </url>
   
@@ -26,20 +47,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
     
     <lastmod>2017-04-03T09:59:31.646Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-04-03T09:33:02.468Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
-    
-    <lastmod>2017-04-03T09:32:55.377Z</lastmod>
     
   </url>
   
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/versioncontrol.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/configure.html</loc>
     
     <lastmod>2017-04-02T04:36:46.367Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/configure.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/versioncontrol.html</loc>
     
     <lastmod>2017-04-02T04:36:46.367Z</lastmod>
     
@@ -100,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -121,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -240,13 +247,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
-    
-    <lastmod>2017-04-02T04:11:08.007Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
     
     <lastmod>2017-04-02T04:11:08.007Z</lastmod>
@@ -254,9 +254,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
     
-    <lastmod>2017-04-02T04:11:08.005Z</lastmod>
+    <lastmod>2017-04-02T04:11:08.007Z</lastmod>
     
   </url>
   
