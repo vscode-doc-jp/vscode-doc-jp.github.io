@@ -107,20 +107,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
-    
-    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/debugging.html</loc>
-    
-    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/introvideos/extend.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
@@ -129,6 +115,20 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
+    
+    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
+    
+    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/debugging.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/example-hello-world.html</loc>
     
     <lastmod>2017-04-02T04:11:08.021Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/example-hello-world.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
     
     <lastmod>2017-04-02T04:11:08.021Z</lastmod>
     
@@ -520,14 +520,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/python.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-03-24T07:10:33.675Z</lastmod>
     
