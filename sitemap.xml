@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/versioncontrol.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/configure.html</loc>
     
     <lastmod>2017-04-02T04:36:46.367Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/configure.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/versioncontrol.html</loc>
     
     <lastmod>2017-04-02T04:36:46.367Z</lastmod>
     
@@ -103,13 +103,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/introvideos/quicktour.html</loc>
     
     <lastmod>2017-04-02T04:36:46.364Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
-    
-    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
   </url>
   
@@ -129,6 +122,13 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/introvideos/intellisense.html</loc>
+    
+    <lastmod>2017-04-02T04:36:46.361Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/introvideos/codeediting.html</loc>
     
     <lastmod>2017-04-02T04:36:46.361Z</lastmod>
     
@@ -247,14 +247,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
     
     <lastmod>2017-04-02T04:11:08.007Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
     
     <lastmod>2017-04-02T04:11:08.007Z</lastmod>
     
