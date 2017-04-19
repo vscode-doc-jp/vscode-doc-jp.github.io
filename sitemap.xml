@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/versioncontrol.html</loc>
+    
+    <lastmod>2017-04-19T10:34:17.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-scm.html</loc>
+    
+    <lastmod>2017-04-19T06:57:02.274Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/overview.html</loc>
     
     <lastmod>2017-04-06T11:53:44.439Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-manifest.html</loc>
     
     <lastmod>2017-04-06T11:50:35.937Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/versioncontrol.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.984Z</lastmod>
     
   </url>
   
@@ -338,13 +345,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.899Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
     
     <lastmod>2017-04-06T11:46:42.899Z</lastmod>
@@ -352,14 +352,21 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    
+    <lastmod>2017-04-06T11:46:42.899Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
     
     <lastmod>2017-04-06T11:46:42.898Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/css.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-04-06T11:46:42.898Z</lastmod>
     
