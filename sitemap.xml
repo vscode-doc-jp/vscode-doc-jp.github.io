@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/keybindings.html</loc>
+    
+    <lastmod>2017-04-21T23:34:08.828Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
+    
+    <lastmod>2017-04-21T23:31:32.323Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/settings.html</loc>
+    
+    <lastmod>2017-04-21T23:30:28.602Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/locales.html</loc>
+    
+    <lastmod>2017-04-21T23:15:06.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
+    
+    <lastmod>2017-04-21T23:02:08.098Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/introvideos.html</loc>
+    
+    <lastmod>2017-04-21T22:34:57.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/css/accordion.css</loc>
+    
+    <lastmod>2017-04-21T22:34:10.991Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/yocode.html</loc>
     
     <lastmod>2017-04-21T11:56:24.397Z</lastmod>
@@ -247,13 +296,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.933Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/setup/additional-components.html</loc>
     
     <lastmod>2017-04-06T11:46:42.930Z</lastmod>
@@ -264,20 +306,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/other/unity.html</loc>
     
     <lastmod>2017-04-06T11:46:42.928Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/settings.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.922Z</lastmod>
     
   </url>
   
@@ -359,13 +387,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/introvideos.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.901Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
     
     <lastmod>2017-04-06T11:46:42.899Z</lastmod>
@@ -415,23 +436,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/locales.html</loc>
-    
-    <lastmod>2017-04-06T11:46:42.886Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/activation-events.html</loc>
     
     <lastmod>2017-04-06T11:46:22.167Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/keybindings.html</loc>
-    
-    <lastmod>2017-04-06T11:44:36.599Z</lastmod>
     
   </url>
   
@@ -446,13 +453,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/supporting/faq.html</loc>
     
     <lastmod>2017-04-06T10:47:14.328Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/css/accordion.css</loc>
-    
-    <lastmod>2017-04-05T00:54:09.860Z</lastmod>
     
   </url>
   
