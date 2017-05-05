@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_12.html</loc>
     
-    <lastmod>2017-05-05T09:18:36.388Z</lastmod>
+    <lastmod>2017-05-05T09:21:49.260Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_12.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
     
-    <lastmod>2017-05-05T09:17:17.945Z</lastmod>
+    <lastmod>2017-05-05T09:18:36.388Z</lastmod>
     
   </url>
   
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
     
     <lastmod>2017-05-05T06:15:11.657Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
     
     <lastmod>2017-05-05T06:15:11.657Z</lastmod>
     
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/codebasics.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
     
     <lastmod>2017-05-05T06:15:11.616Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/codebasics.html</loc>
     
     <lastmod>2017-05-05T06:15:11.616Z</lastmod>
     
@@ -625,14 +625,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
     
     <lastmod>2017-03-26T04:15:46.446Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/overview.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
     
     <lastmod>2017-03-26T04:15:46.446Z</lastmod>
     
