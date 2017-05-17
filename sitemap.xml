@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_12.html</loc>
+    
+    <lastmod>2017-05-17T08:30:12.715Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-tutorial.html</loc>
+    
+    <lastmod>2017-05-10T07:02:46.534Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/getstarted/settings.html</loc>
     
     <lastmod>2017-05-09T13:06:54.255Z</lastmod>
@@ -117,13 +131,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
     
     <lastmod>2017-05-05T06:15:11.653Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-tutorial.html</loc>
-    
-    <lastmod>2017-05-05T06:15:11.651Z</lastmod>
     
   </url>
   
@@ -247,14 +254,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/codebasics.html</loc>
     
     <lastmod>2017-05-05T06:15:11.616Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/codebasics.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
     
     <lastmod>2017-05-05T06:15:11.616Z</lastmod>
     
@@ -268,14 +275,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
     
     <lastmod>2017-05-05T06:15:11.611Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-05-05T06:15:11.611Z</lastmod>
     
@@ -565,13 +572,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/supporting/errors.html</loc>
     
     <lastmod>2017-05-05T05:43:29.033Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_12.html</loc>
-    
-    <lastmod>2017-05-05T00:00:00.000Z</lastmod>
     
   </url>
   
