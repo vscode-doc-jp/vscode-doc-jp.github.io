@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    
+    <lastmod>2017-05-23T09:14:59.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-05-23T09:14:56.046Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
+    
+    <lastmod>2017-05-23T09:12:16.039Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
     
     <lastmod>2017-05-17T10:56:30.171Z</lastmod>
@@ -68,20 +89,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/getstarted/theme-color-reference.html</loc>
     
     <lastmod>2017-05-05T13:10:20.293Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
-    
-    <lastmod>2017-05-05T13:09:45.226Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-05-05T13:09:41.491Z</lastmod>
     
   </url>
   
@@ -303,13 +310,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
-    
-    <lastmod>2017-05-05T06:15:11.611Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-05-05T06:15:11.611Z</lastmod>
@@ -317,9 +317,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
-    <lastmod>2017-05-05T06:15:11.605Z</lastmod>
+    <lastmod>2017-05-05T06:15:11.611Z</lastmod>
     
   </url>
   
