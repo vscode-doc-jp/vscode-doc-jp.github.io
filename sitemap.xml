@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
+    
+    <lastmod>2017-05-23T13:43:01.373Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
     
     <lastmod>2017-05-23T09:56:46.573Z</lastmod>
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
     
     <lastmod>2017-05-05T06:15:11.657Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
     
     <lastmod>2017-05-05T06:15:11.657Z</lastmod>
     
@@ -303,6 +310,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
+    
+    <lastmod>2017-05-05T06:15:11.611Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/api-debugging.html</loc>
     
     <lastmod>2017-05-05T06:15:11.611Z</lastmod>
@@ -311,13 +325,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
-    
-    <lastmod>2017-05-05T06:15:11.611Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
     <lastmod>2017-05-05T06:15:11.611Z</lastmod>
     
@@ -355,13 +362,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/userguide/userdefinedsnippets.html</loc>
     
     <lastmod>2017-05-05T06:09:20.204Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
-    
-    <lastmod>2017-05-05T06:07:11.159Z</lastmod>
     
   </url>
   
