@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
+    
+    <lastmod>2017-05-23T09:56:46.573Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
     <lastmod>2017-05-23T09:14:59.813Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
     
     <lastmod>2017-05-23T09:14:56.046Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
-    
-    <lastmod>2017-05-23T09:12:16.039Z</lastmod>
     
   </url>
   
