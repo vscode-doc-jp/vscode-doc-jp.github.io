@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
+    
+    <lastmod>2017-06-10T11:07:35.089Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
+    
+    <lastmod>2017-06-10T10:52:16.397Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
+    
+    <lastmod>2017-06-10T10:43:28.197Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/intellisense.html</loc>
+    
+    <lastmod>2017-06-10T09:52:06.154Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_13.html</loc>
+    
+    <lastmod>2017-06-10T08:00:16.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
+    
+    <lastmod>2017-06-10T04:54:02.726Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/versioncontrol.html</loc>
     
     <lastmod>2017-06-09T11:45:23.158Z</lastmod>
@@ -114,6 +156,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.990Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
@@ -128,23 +177,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.990Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
     <lastmod>2017-06-09T10:29:06.988Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
   </url>
   
@@ -156,14 +191,21 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
@@ -180,13 +222,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
     
     <lastmod>2017-06-09T10:26:58.918Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/intellisense.html</loc>
-    
-    <lastmod>2017-06-09T10:25:39.587Z</lastmod>
     
   </url>
   
@@ -236,13 +271,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensions/overview.html</loc>
     
     <lastmod>2017-06-09T10:21:30.431Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
-    
-    <lastmod>2017-06-09T10:21:20.743Z</lastmod>
     
   </url>
   
@@ -387,14 +415,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/theme-color-reference.html</loc>
     
     <lastmod>2017-06-09T10:18:28.332Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/theme-color-reference.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
     
     <lastmod>2017-06-09T10:18:28.332Z</lastmod>
     
@@ -467,13 +495,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
     
     <lastmod>2017-05-23T09:14:56.046Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/setup-overview.html</loc>
-    
-    <lastmod>2017-05-17T10:56:30.171Z</lastmod>
     
   </url>
   
@@ -555,14 +576,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/extension-gallery.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/integrated-terminal.html</loc>
     
     <lastmod>2017-05-05T06:15:11.629Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/integrated-terminal.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/extension-gallery.html</loc>
     
     <lastmod>2017-05-05T06:15:11.629Z</lastmod>
     
@@ -597,23 +618,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/themes.html</loc>
-    
-    <lastmod>2017-05-05T06:12:29.565Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/setup/mac.html</loc>
     
     <lastmod>2017-05-05T06:11:50.234Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
-    
-    <lastmod>2017-05-05T06:11:47.602Z</lastmod>
     
   </url>
   
