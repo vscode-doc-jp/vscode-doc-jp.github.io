@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
+    
+    <lastmod>2017-06-17T12:16:27.953Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/404.html</loc>
+    
+    <lastmod>2017-06-17T05:21:47.521Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/index.html</loc>
+    
+    <lastmod>2017-06-16T11:46:35.752Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
+    
+    <lastmod>2017-06-16T11:40:07.320Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_11.html</loc>
     
     <lastmod>2017-06-15T14:24:39.647Z</lastmod>
@@ -72,30 +100,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
-    
-    <lastmod>2017-06-15T13:49:22.901Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
-    
-    <lastmod>2017-06-15T13:49:11.839Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/getstarted/keybindings.html</loc>
     
     <lastmod>2017-06-15T13:43:32.508Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/index.html</loc>
-    
-    <lastmod>2017-06-11T12:06:53.942Z</lastmod>
     
   </url>
   
@@ -240,14 +247,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
     
     <lastmod>2017-06-09T10:29:06.999Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-06-09T10:29:06.999Z</lastmod>
     
@@ -268,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.990Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/json.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
@@ -282,13 +296,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.990Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
     <lastmod>2017-06-09T10:29:06.988Z</lastmod>
@@ -296,7 +303,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
@@ -317,7 +324,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
@@ -513,14 +520,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/theme-color-reference.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
     
     <lastmod>2017-06-09T10:18:28.332Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/userinterface.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/theme-color-reference.html</loc>
     
     <lastmod>2017-06-09T10:18:28.332Z</lastmod>
     
@@ -639,14 +646,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/extension-gallery.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/integrated-terminal.html</loc>
     
     <lastmod>2017-05-05T06:15:11.629Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/integrated-terminal.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/extension-gallery.html</loc>
     
     <lastmod>2017-05-05T06:15:11.629Z</lastmod>
     
@@ -705,13 +712,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/languages/identifiers.html</loc>
     
     <lastmod>2017-04-16T07:43:12.798Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/404.html</loc>
-    
-    <lastmod>2017-03-01T23:59:50.155Z</lastmod>
     
   </url>
   
