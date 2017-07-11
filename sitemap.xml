@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/editingevolved.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/publish-extension.html</loc>
     
-    <lastmod>2017-06-19T11:44:18.293Z</lastmod>
+    <lastmod>2017-07-11T12:25:45.103Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
-    <lastmod>2017-06-19T11:37:10.296Z</lastmod>
+    <lastmod>2017-07-11T12:23:53.802Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/README.html</loc>
     
-    <lastmod>2017-06-19T11:37:08.708Z</lastmod>
+    <lastmod>2017-07-11T12:23:36.989Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
+    
+    <lastmod>2017-07-11T12:02:16.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
+    
+    <lastmod>2017-06-25T04:01:44.183Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/editingevolved.html</loc>
+    
+    <lastmod>2017-06-19T11:44:18.293Z</lastmod>
     
   </url>
   
@@ -254,20 +275,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/markdown.html</loc>
-    
-    <lastmod>2017-06-09T10:29:07.006Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/javascript.html</loc>
-    
-    <lastmod>2017-06-09T10:29:07.003Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
@@ -282,14 +289,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
     
     <lastmod>2017-06-09T10:29:06.999Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-06-09T10:29:06.999Z</lastmod>
     
@@ -331,13 +338,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
@@ -346,6 +346,13 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
@@ -621,13 +628,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensions/example-hello-world.html</loc>
     
     <lastmod>2017-05-05T06:15:11.647Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/publish-extension.html</loc>
-    
-    <lastmod>2017-05-05T06:15:11.644Z</lastmod>
     
   </url>
   
