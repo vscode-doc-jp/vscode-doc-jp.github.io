@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
+    
+    <lastmod>2017-07-30T01:13:51.437Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks-v1.html</loc>
+    
+    <lastmod>2017-07-30T01:07:32.760Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks-v1-appendix.html</loc>
+    
+    <lastmod>2017-07-30T01:06:45.503Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks-appendix.html</loc>
+    
+    <lastmod>2017-07-30T01:06:45.501Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
+    
+    <lastmod>2017-07-29T10:56:01.394Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/cpp.html</loc>
+    
+    <lastmod>2017-07-29T10:55:02.786Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
+    
+    <lastmod>2017-07-29T10:40:38.182Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/versioncontrol.html</loc>
     
     <lastmod>2017-07-29T06:46:26.650Z</lastmod>
@@ -58,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_11.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
@@ -72,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_11.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
@@ -107,6 +156,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/getstarted/keybindings.html</loc>
+    
+    <lastmod>2017-07-12T08:11:33.830Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/editingevolved.html</loc>
     
     <lastmod>2017-07-12T08:11:33.830Z</lastmod>
@@ -121,13 +177,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/getstarted/keybindings.html</loc>
-    
-    <lastmod>2017-07-12T08:11:33.830Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/whyvscode.html</loc>
     
     <lastmod>2017-07-12T08:09:02.963Z</lastmod>
@@ -135,23 +184,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks.html</loc>
-    
-    <lastmod>2017-07-12T08:08:47.561Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/userguide/intellisense.html</loc>
     
     <lastmod>2017-07-12T08:08:37.812Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
-    
-    <lastmod>2017-07-12T08:08:18.120Z</lastmod>
     
   </url>
   
@@ -289,13 +324,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/cpp.html</loc>
-    
-    <lastmod>2017-06-18T10:42:25.675Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/languages/identifiers.html</loc>
     
     <lastmod>2017-06-18T01:12:36.199Z</lastmod>
@@ -317,23 +345,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/samples.html</loc>
-    
-    <lastmod>2017-06-10T10:52:16.397Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
     
     <lastmod>2017-06-09T10:29:07.013Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/tasks-appendix.html</loc>
-    
-    <lastmod>2017-06-09T10:29:07.011Z</lastmod>
     
   </url>
   
@@ -359,14 +373,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-debugging.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
     
@@ -401,14 +415,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
     
