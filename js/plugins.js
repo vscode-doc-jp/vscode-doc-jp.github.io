@@ -21,3 +21,9 @@ $(function () {
             })
     }
 });
+
+$('.command-accordion').click(function () {
+    // target has '#'
+    var target = $(this).data('target');
+    $(target).slideToggle();
+});
