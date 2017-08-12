@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_15.html</loc>
+    
+    <lastmod>2017-08-12T08:47:02.764Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
+    
+    <lastmod>2017-08-12T08:39:21.468Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api.html</loc>
     
     <lastmod>2017-08-11T09:14:55.278Z</lastmod>
@@ -47,13 +61,6 @@
     <loc>https://vscode-doc-jp.github.io/updates/v1_13.html</loc>
     
     <lastmod>2017-08-02T08:55:56.322Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
-    
-    <lastmod>2017-08-02T08:55:06.899Z</lastmod>
     
   </url>
   
@@ -191,6 +198,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
+    
+    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
@@ -199,13 +213,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
-    
-    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
@@ -394,14 +401,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-debugging.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-debugging.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
     
@@ -436,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-06-09T10:29:06.990Z</lastmod>
     
@@ -453,6 +460,13 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
     <lastmod>2017-06-09T10:29:06.988Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
   </url>
   
@@ -472,13 +486,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
