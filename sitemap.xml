@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
+    
+    <lastmod>2017-08-16T10:25:06.201Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_15.html</loc>
     
     <lastmod>2017-08-12T09:37:22.459Z</lastmod>
@@ -177,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_8.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_3.html</loc>
     
     <lastmod>2017-07-28T11:18:54.330Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_3.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_8.html</loc>
     
     <lastmod>2017-07-28T11:18:54.330Z</lastmod>
     
@@ -205,13 +212,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
-    
-    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
@@ -219,9 +219,9 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/setup/linux.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
     
-    <lastmod>2017-07-27T06:25:50.537Z</lastmod>
+    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
   </url>
   
@@ -464,13 +464,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
@@ -479,6 +472,13 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.983Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
     
     <lastmod>2017-06-09T10:29:06.983Z</lastmod>
     
