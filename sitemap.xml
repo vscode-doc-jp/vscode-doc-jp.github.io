@@ -4,7 +4,7 @@
   <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_19.html</loc>
     
-    <lastmod>2017-12-16T23:20:58.234Z</lastmod>
+    <lastmod>2017-12-16T23:27:59.532Z</lastmod>
     
   </url>
   
@@ -19,13 +19,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/extension-points.html</loc>
     
     <lastmod>2017-12-13T13:08:00.582Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_18.html</loc>
-    
-    <lastmod>2017-12-02T07:56:01.395Z</lastmod>
     
   </url>
   
@@ -345,13 +338,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
-    
-    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_10.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
@@ -360,6 +346,13 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_4.html</loc>
+    
+    <lastmod>2017-07-28T11:18:54.322Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_6.html</loc>
     
     <lastmod>2017-07-28T11:18:54.322Z</lastmod>
     
@@ -513,14 +506,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-06-09T10:29:06.991Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-06-09T10:29:06.991Z</lastmod>
     
@@ -530,13 +523,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/extensionapi/language-support.html</loc>
     
     <lastmod>2017-06-09T10:29:06.989Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
   </url>
   
@@ -556,6 +542,13 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.984Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
