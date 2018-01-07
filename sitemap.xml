@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
+    
+    <lastmod>2018-01-07T23:57:16.464Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/404.html</loc>
     
     <lastmod>2018-01-07T23:17:17.804Z</lastmod>
@@ -222,13 +229,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/userguide/debugging.html</loc>
     
     <lastmod>2017-08-18T12:57:28.410Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/userguide/command-line.html</loc>
-    
-    <lastmod>2017-08-18T12:57:22.654Z</lastmod>
     
   </url>
   
