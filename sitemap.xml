@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/404.html</loc>
+    
+    <lastmod>2018-01-07T23:17:17.804Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_12.html</loc>
     
     <lastmod>2018-01-07T12:50:55.786Z</lastmod>
@@ -145,13 +152,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/languages/typescript.html</loc>
     
     <lastmod>2017-12-25T10:57:10.792Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/404.html</loc>
-    
-    <lastmod>2017-10-25T14:48:35.052Z</lastmod>
     
   </url>
   
@@ -471,13 +471,6 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
-    
-    <lastmod>2017-06-09T10:29:07.001Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vscode-doc-jp.github.io/docs/nodejs/nodejs-debugging.html</loc>
     
     <lastmod>2017-06-09T10:29:07.001Z</lastmod>
@@ -485,14 +478,21 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/tasks.html</loc>
+    
+    <lastmod>2017-06-09T10:29:07.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-06-09T10:29:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
     
     <lastmod>2017-06-09T10:29:07.000Z</lastmod>
     
@@ -541,7 +541,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
@@ -555,7 +555,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
