@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/v1_20.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
     
-    <lastmod>2018-03-06T10:23:19.084Z</lastmod>
+    <lastmod>2018-03-08T10:40:02.741Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/updates/index.html</loc>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_21.html</loc>
     
-    <lastmod>2018-02-16T11:01:53.189Z</lastmod>
+    <lastmod>2018-03-08T10:38:37.883Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/updates/v1_20.html</loc>
+    
+    <lastmod>2018-03-08T00:01:18.461Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vscode-doc-jp.github.io/index.html</loc>
+    
+    <lastmod>2018-03-07T03:32:27.843Z</lastmod>
     
   </url>
   
@@ -187,13 +201,6 @@
     <loc>https://vscode-doc-jp.github.io/docs/index.html</loc>
     
     <lastmod>2017-09-17T12:28:47.301Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/index.html</loc>
-    
-    <lastmod>2017-09-17T03:04:33.537Z</lastmod>
     
   </url>
   
@@ -492,14 +499,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
     
     <lastmod>2017-06-09T10:29:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/reactjs-tutorial.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/go.html</loc>
     
     <lastmod>2017-06-09T10:29:07.000Z</lastmod>
     
@@ -548,6 +555,13 @@
   </url>
   
   <url>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    
+    <lastmod>2017-06-09T10:29:06.984Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vscode-doc-jp.github.io/docs/extensions/themes-snippets-colorizers.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
@@ -556,13 +570,6 @@
   
   <url>
     <loc>https://vscode-doc-jp.github.io/docs/other/office.html</loc>
-    
-    <lastmod>2017-06-09T10:29:06.984Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
