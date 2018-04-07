@@ -4,7 +4,7 @@
   <url>
     <loc>https://vscode-doc-jp.github.io/updates/v1_22.html</loc>
     
-    <lastmod>2018-04-06T23:19:37.006Z</lastmod>
+    <lastmod>2018-04-07T10:38:24.021Z</lastmod>
     
   </url>
   
@@ -534,14 +534,14 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
     
     <lastmod>2017-06-09T10:29:06.991Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/languages/csharp.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/nodejs/extensions.html</loc>
     
     <lastmod>2017-06-09T10:29:06.991Z</lastmod>
     
@@ -555,7 +555,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
@@ -576,7 +576,7 @@
   </url>
   
   <url>
-    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/patterns-and-principles.html</loc>
+    <loc>https://vscode-doc-jp.github.io/docs/extensionapi/vscode-api-commands.html</loc>
     
     <lastmod>2017-06-09T10:29:06.984Z</lastmod>
     
