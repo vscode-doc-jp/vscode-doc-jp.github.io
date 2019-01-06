@@ -1,0 +1,688 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><title>June 2018 (version 1.25) | 非公式 - Visual Studio Code Docs</title><meta name="description" content="Visual Studio Code (VS Code) Docs の日本語訳"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="canonical" href="https://vscode-doc-jp.github.io/updates/v1_25.html"><link rel="stylesheet" href="/css/navy.css"><link rel="stylesheet" href="/css/accordion.css"><link rel="alternate" href="/atom.xml" title="非公式 - Visual Studio Code Docs"><script>!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src="https://www.google-analytics.com/analytics.js",s.parentNode.insertBefore(o,s)}(window,document,"script",0,"ga"),ga("create","UA-92801937-1","auto"),ga("send","pageview")</script><meta name="robots" content="noindex"></head><body><div id="container"><header id="header" class="wrapper"><div id="header-inner" class="inner"><h1 id="logo-wrap"><a href="/" id="logo">Visual Studio Code</a></h1><nav id="main-nav"><a href="/docs/" class="main-nav-link">Docs</a><a href="/updates/" class="main-nav-link">Updates</a><div id="search-input-wrap"><div id="search-input-icon"><i class="fa fa-search"></i></div><input type="search" id="search-input" placeholder="Search..."></div></nav><a id="mobile-nav-toggle"><span class="mobile-nav-toggle-bar"></span> <span class="mobile-nav-toggle-bar"></span> <span class="mobile-nav-toggle-bar"></span></a></div></header><div id="content-wrap"><div id="content" class="wrapper"><div id="content-inner"><header role="navigation"><div class="inner"><nav class="small_nav"><h4>Topics</h4><form name="SmallNav"><select class="small_nav_dropdown" name="doropdown" onchange="location.href=document.SmallNav.doropdown.options[document.SmallNav.doropdown.selectedIndex].value"><optgroup class="small-nav-title" label="UPDATES"><option value="/updates/v1_22.html" class="small-nav-link" undefined>March 2018</option><option value="/updates/v1_21.html" class="small-nav-link" undefined>February 2018</option><option value="/updates/v1_20.html" class="small-nav-link" undefined>January 2018</option><option value="/updates/v1_19.html" class="small-nav-link" undefined>November 2017</option><option value="/updates/v1_17.html" class="small-nav-link" undefined>September 2017</option><option value="/updates/v1_16.html" class="small-nav-link" undefined>August 2017</option><option value="/updates/v1_15.html" class="small-nav-link" undefined>July 2017</option><option value="/updates/v1_14.html" class="small-nav-link" undefined>June 2017</option><option value="/updates/v1_13.html" class="small-nav-link" undefined>May 2017</option><option value="/updates/v1_12.html" class="small-nav-link" undefined>April 2017</option><option value="/updates/v1_11.html" class="small-nav-link" undefined>March 2017</option><option value="/updates/v1_10.html" class="small-nav-link" undefined>February 2017</option><option value="/updates/v1_9.html" class="small-nav-link" undefined>January 2017</option><option value="/updates/v1_8.html" class="small-nav-link" undefined>December 2016</option><option value="/updates/v1_7.html" class="small-nav-link" undefined>October 2016</option><option value="/updates/v1_6.html" class="small-nav-link" undefined>September 2016</option><option value="/updates/v1_5.html" class="small-nav-link" undefined>August 2016</option><option value="/updates/v1_4.html" class="small-nav-link" undefined>July 2016</option><option value="/updates/v1_3.html" class="small-nav-link" undefined>June 2016</option></optgroup></select></form></nav></div></header><article class="article-container" itemscope itemtype="http://schema.org/Article"><div class="article-inner"><div class="article"><div class="inner"><header class="article-header"><h1 class="article-title" itemprop="name">June 2018 (version 1.25)</h1><a href="https://github.com/vscode-doc-jp/Updates/edit/master/v1_25.md" class="article-edit-link" title="Improve this doc"><div class="fa"></div></a><a href="https://code.visualstudio.com/updates/v1_25" class="article-original-link" title="Visit Original"><div class="fa"></div></a><h2><time class="article-updated" data-position="header" datetime="2018-07-07T02:43:53.677Z" itemprop="dateModified">Last updated: 2018-07-07</time></h2></header><div class="article-content" itemprop="articleBody"><p>Welcome to the June 2018 release of Visual Studio Code. We’re very excited to move several features announced as Preview last month to Stable. Some of the key highlights include:</p><ul><li><strong><a href="#grid-editor-layout">Grid editor layout</a></strong> - Custom horizontal and vertical editor layout.</li><li><strong><a href="#outline-view">Outline view</a></strong> - Symbol tree outline and navigation for your documents.</li><li><strong><a href="#portable-mode">Portable Mode</a></strong> - Run or copy your VS Code setup from a USB thumb drop or file share.</li><li><strong><a href="#hover-display-options">Hover display options</a></strong> - Control the appearance of hover information.</li><li><strong><a href="#history-navigation">Sub-word navigation</a></strong> - Quickly navigate in camelCase words.</li><li><strong><a href="#floating-debug-toolbar">Floating debug toolbar</a></strong> - Keep the debug toolbar always visible without hiding editor tabs.</li><li><strong><a href="#extensions">Extensions view improvements</a></strong> - Easily see Enabled, Disabled, and Recommended extensions.</li><li><strong><a href="#new-settings-editor">Preview: Settings editor</a></strong> - Now with a “Table of Contents” to organize settings.</li><li><strong><a href="#language-server-protocol-inspector">Language Server Protocol Inspector</a></strong> - Extension authors can visualize LSP protocol traffic.</li><li><strong><a href="#new-documentation">New Python Flask tutorial</a></strong> - Use VS Code to create and debug Python Flask web applications.</li></ul><blockquote><p>If you’d like to read these release notes online, go to <a href="https://code.visualstudio.com/updates" target="_blank" rel="noopener">Updates</a> on <a href="https://code.visualstudio.com" target="_blank" rel="noopener">code.visualstudio.com</a>.<br><br>You can also check out this 1.25 release <a href="https://youtu.be/yVEhzjZUZhU" target="_blank" rel="noopener">highlights video</a> from Cloud Developer Advocate <a href="https://twitter.com/_clarkio" target="_blank" rel="noopener">Brian Clark</a>.</p></blockquote><p>The release notes are arranged in the following sections related to VS Code focus areas. Here are some further updates:</p><ul><li><strong><a href="#editor">Workbench</a></strong> - Drop files and folders into empty Explorer, uniform history navigation.</li><li><strong><a href="#editor">Editor</a></strong> - Smart suggestion selection, snippet placeholder transforms.</li><li><strong><a href="#languages">Languages</a></strong> - Update JS/TS imports on folder rename, CSS pseudo selectors and elements.</li><li><strong><a href="#preview-features">Preview Features</a></strong> - User setup on Windows, custom tool and menu bar for Windows and Linux.</li><li><strong><a href="#extension-authoring">Extension Authoring</a></strong> - Contribute grid editor layouts, preselect Completion Items.</li><li><strong><a href="#new-commands">New Commands</a></strong> - New grid editor layout commands and keyboard shortcuts.</li></ul><p><strong>Insiders:</strong> Want to see new features as soon as possible? You can download the nightly <a href="https://code.visualstudio.com/insiders" target="_blank" rel="noopener">Insiders</a> build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter <a href="https://twitter.com/code" target="_blank" rel="noopener">@code</a>!</p><h2 id="Workbench" class="article-heading"><a href="#Workbench" class="headerlink" title="Workbench"></a>Workbench<a class="article-anchor" href="#Workbench" aria-hidden="true"></a></h2><h3 id="Grid-editor-layout" class="article-heading"><a href="#Grid-editor-layout" class="headerlink" title="Grid editor layout"></a>Grid editor layout<a class="article-anchor" href="#Grid-editor-layout" aria-hidden="true"></a></h3><p>You can now arrange editors both vertically and horizontally and have more than 3 editors side by side:</p><p><img src="images/1_25/grid-layout.gif" alt="Grid Editor Layout"></p><p>To support flexible layouts, you can create empty editor groups. By default, closing the last editor of an editor group will also close the group itself, but you can change this behavior with the new setting <code>workbench.editor.closeEmptyGroups: false</code>.</p><p><img src="images/1_25/grid-empty.png" alt="Grid Empty"></p><p>There are a predefined set of editor layouts in the new <strong>View</strong> &gt; <strong>Editor Layout</strong> menu:</p><p><img src="images/1_25/grid-layout-menu.png" alt="Grid Editor Layout Menu"></p><p>Editors that open to the side (for example by clicking the editor toolbar <strong>Split Editor</strong> action) will by default open to the right hand side of the active editor. If you prefer to open editors below the active one, configure the new setting <code>workbench.editor.openSideBySideDirection: down</code>.</p><p>There are many <a href="#new-commands">new commands</a> for adjusting the editor layout with the keyboard alone, but if you prefer to use the mouse, drag and drop is a fast way to split the editor in any direction:</p><p><img src="images/1_25/grid-dnd.gif" alt="Grid Editor Drag and Drop"></p><p>Since editor groups are now unlimited and can be arranged in many ways, the <strong>OPEN EDITORS</strong> view no longer labels editor groups as <strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong>. Instead, editor groups are now labeled with numbers according to their creation time. The last editor group created will always be at the end of the <strong>OPEN EDITORS</strong> list. We found this to be a good model that minimizes changing the list when moving editor groups around in the layout:</p><p><img src="images/1_25/grid-open-editors.png" alt="Grid Open Editors View"></p><p>Refer to the <a href="#extension-authoring">Extension Authoring</a> section for the impact on extensions and themes and see <a href="#new-commands">New Commands</a> for the list of new grid editor layout commands.</p><blockquote><p><strong>Pro Tip</strong>: If you press and hold the <code>Alt</code> key while hovering over the toolbar action to split an editor, it will offer to split to the other orientation. This is a fast way to split either to the right or to the bottom.</p></blockquote><p><img src="images/1_25/grid-alt.gif" alt="Grid Alt Click"></p><p>Due to the grid layout work we have changed how the <strong>centered editor layout</strong> behaves:</p><ul><li>It is now possible to open any editor layout inside the centered editor layout. Thus it gives more flexibility to the user.</li><li>Centered editor layout no longer automatically enables and disables based on the layout. As this was sometimes confusing and lead to unexpected behavior.</li></ul><h3 id="Outline-view" class="article-heading"><a href="#Outline-view" class="headerlink" title="Outline view"></a>Outline view<a class="article-anchor" href="#Outline-view" aria-hidden="true"></a></h3><p>The Outline view is out of preview and now enabled by default. It is a separate section in the bottom of the File Explorer. When expanded, it will show the symbol tree of the currently active editor.</p><p>The Outline view has different <strong>Sort By</strong> modes, optional cursor tracking, and supports the usual open gestures. It also includes an input box which finds or filters symbols as you type. Errors and warnings are also shown in the Outline view, letting you see at a glance a problem’s location.</p><p><img src="images/1_25/outline.png" alt="Outline view"></p><p>There are several Outline view settings which allow you to enable/disable icons and control the errors and warnings display (all enabled by default):</p><ul><li><code>outline.icons</code> - Toggle rendering outline elements with icons.</li><li><code>outline.problems.enabled</code> - Show errors and warnings on outline elements.</li><li><code>outline.problems.badges</code> - Toggle using badges for errors and warnings.</li><li><code>outline.problems.colors</code> - Toggle using colors for errors and warnings.</li></ul><p>There is also a <a href="#document-symbols">new API</a> for extensions authors.</p><h3 id="Portable-Mode" class="article-heading"><a href="#Portable-Mode" class="headerlink" title="Portable Mode"></a>Portable Mode<a class="article-anchor" href="#Portable-Mode" aria-hidden="true"></a></h3><p>VS Code now supports Portable Mode, where all data created and maintained by VS Code is located near the installation. This lets you easily move a VS Code setup across environments, for example through a USB drive or file share. Portable Mode is supported on the ZIP download for Windows and Linux, as well as the regular Application download for macOS. <a href="https://code.visualstudio.com/docs/editor/portable" target="_blank" rel="noopener">Click here</a> to learn more.</p><h3 id="Drop-files-and-folders-into-empty-files-explorer" class="article-heading"><a href="#Drop-files-and-folders-into-empty-files-explorer" class="headerlink" title="Drop files and folders into empty files explorer"></a>Drop files and folders into empty files explorer<a class="article-anchor" href="#Drop-files-and-folders-into-empty-files-explorer" aria-hidden="true"></a></h3><p>It is now possible to drop files, folders, and VS Code workspace files into an empty Explorer to open them.</p><p><img src="images/1_25/drop.gif" alt="empty drop"></p><h3 id="History-navigation" class="article-heading"><a href="#History-navigation" class="headerlink" title="History navigation"></a>History navigation<a class="article-anchor" href="#History-navigation" aria-hidden="true"></a></h3><p>Navigating input history is now more natural and consistent across VS Code. You can use the <kbd>UpArrow</kbd> (<code>history.showPrevious</code>) and <kbd>DownArrow</kbd> (<code>history.showNext</code>) keys to navigate the input boxes in the Search and Problems views and the Find widgets in the Editor, Terminal, and Web views.</p><p>For simplicity and consistency, we changed the default keybindings for navigating among input boxes from <kbd>UpArrow</kbd> and <kbd>DownArrow</kbd> to <kbd>Ctrl+UpArrow</kbd> (or <kbd>Cmd+UpArrow</kbd> on macOS) and <kbd>Ctrl+DownArrow</kbd> (or <kbd>Cmd+DownArrow</kbd> on macOS) keys respectively. You can always go back to previous behavior by updating <span class="dynamic-keybinding" data-osx="↑" data-win="Up" data-linux="Up"><span class="keybinding">↑</span> (Windows, Linux <span class="keybinding">Up</span>)</span>, <span class="dynamic-keybinding" data-osx="↓" data-win="Down" data-linux="Down"><span class="keybinding">↓</span> (Windows, Linux <span class="keybinding">Down</span>)</span> and <span class="dynamic-keybinding" data-osx="↑" data-win="Up" data-linux="Up"><span class="keybinding">↑</span> (Windows, Linux <span class="keybinding">Up</span>)</span> keybindings.</p><p><strong>Note</strong>: We also removed all existing <a href="#history-navigation-commands">18 History Navigation Commands</a> and unified them into two commands <code>history.showPrevious</code> and <code>history.showNext</code>.</p><h2 id="Editor" class="article-heading"><a href="#Editor" class="headerlink" title="Editor"></a>Editor<a class="article-anchor" href="#Editor" aria-hidden="true"></a></h2><h3 id="Hover-display-options" class="article-heading"><a href="#Hover-display-options" class="headerlink" title="Hover display options"></a>Hover display options<a class="article-anchor" href="#Hover-display-options" aria-hidden="true"></a></h3><p>Some users prefer to have no hover suggestions covering text in the editor and the editor hover can now be customized with three additional settings. Use <code>editor.hover.enabled</code> to toggle the editor hover, use <code>editor.hover.delay</code> to customize the time until the hover is shown, and use <code>editor.hover.sticky</code> to change if the hover should remain visible when moving the mouse over it.</p><h3 id="Sub-word-support" class="article-heading"><a href="#Sub-word-support" class="headerlink" title="Sub-word support"></a>Sub-word support<a class="article-anchor" href="#Sub-word-support" aria-hidden="true"></a></h3><p>We have new commands for sub-word navigation and sub-word deletion. These commands will stop at camel case positions and at underscores (<code>_</code>).</p><p><img src="images/1_25/editor-sub-word-navigation.gif" alt="editor sub-word navigation"></p><p>Here is an example for how you can bind them:</p><figure class="highlight"><table><tr><td class="code"><pre><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+alt+right"</span>,          <span class="attr">"command"</span>: <span class="string">"cursorWordPartRight"</span>,</span><br><span class="line">                                       "when": "textInputFocus" &#125;,</span><br><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+shift+alt+right"</span>,    <span class="attr">"command"</span>: <span class="string">"cursorWordPartRightSelect"</span>,</span><br><span class="line">                                       "when": "textInputFocus" &#125;,</span><br><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+alt+left"</span>,           <span class="attr">"command"</span>: <span class="string">"cursorWordPartStartLeft"</span>,</span><br><span class="line">                                       "when": "textInputFocus" &#125;,</span><br><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+shift+alt+left"</span>,      <span class="attr">"command"</span>: <span class="string">"cursorWordPartStartLeftSelect"</span>,</span><br><span class="line">                                       "when": "textInputFocus" &#125;,</span><br><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+alt+backspace"</span>,       <span class="attr">"command"</span>: <span class="string">"deleteWordPartLeft"</span>,</span><br><span class="line">                                       "when": "textInputFocus &amp;&amp; !editorReadonly" &#125;,</span><br><span class="line">&#123; <span class="attr">"key"</span>: <span class="string">"ctrl+shift+alt+backspace"</span>, <span class="attr">"command"</span>: <span class="string">"deleteWordPartRight"</span>,</span><br><span class="line">                                       "when": "textInputFocus &amp;&amp; !editorReadonly" &#125;,</span><br></pre></td></tr></table></figure>
+<h3 id="Suggestion-selections" class="article-heading"><a href="#Suggestion-selections" class="headerlink" title="Suggestion selections"></a>Suggestion selections<a class="article-anchor" href="#Suggestion-selections" aria-hidden="true"></a></h3><p>Language IntelliSense providers often know which suggestions are best and with this version of VS Code, they can now preselect suggestions. There is new <a href="#preselected-completion-items">API</a> for preselected suggestions and when available, the editor will select that suggestion rather than the first in the list.</p>
+<p><img src="images/1_25/suggest_preselect.png" alt="suggestion selection"></p>
+<h3 id="Snippet-placeholder-transformations" class="article-heading"><a href="#Snippet-placeholder-transformations" class="headerlink" title="Snippet placeholder transformations"></a>Snippet placeholder transformations<a class="article-anchor" href="#Snippet-placeholder-transformations" aria-hidden="true"></a></h3><p>Snippets finally support placeholder transformations. Placeholder transformations are like variable transformations but more dynamic. A transformation is applied when switching from one placeholder to the next and this is the grammar rule for them: <strong>${</strong><em>int</em><strong>/</strong><em>regex</em><strong>/</strong><em>format_string</em><strong>/</strong><em>opts</em><strong>}</strong>.</p>
+<p>Below is a sample that replaces “Hello World” with its German counterpart:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">"HelloWorld": &#123;</span><br><span class="line">  "prefix": "say_hello",</span><br><span class="line">  "body": "$&#123;1&#125; $&#123;2&#125; -&gt; $&#123;1/Hello/Hallo/&#125; $&#123;2/World/Welt/&#125;"</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="images/1_25/snippet_placeholder_transform.gif" alt="snippet placeholder transformation"></p>
+<p>Refer to the <a href="https://code.visualstudio.com/docs/editor/userdefinedsnippets#_grammar" target="_blank" rel="noopener">snippet grammar</a> for more details and how to unleash the full potential of transformations.</p>
+<h2 id="Integrated-Terminal" class="article-heading"><a href="#Integrated-Terminal" class="headerlink" title="Integrated Terminal"></a>Integrated Terminal<a class="article-anchor" href="#Integrated-Terminal" aria-hidden="true"></a></h2><h3 id="Performance-Improvements" class="article-heading"><a href="#Performance-Improvements" class="headerlink" title="Performance Improvements"></a>Performance Improvements<a class="article-anchor" href="#Performance-Improvements" aria-hidden="true"></a></h3><p>The Integrated Terminal’s parser was re-written from the ground up for enhanced ANSI compliance and boosting the rate at which incoming data is processed by approximately 30%. This came in as an upstream community contribution to <a href="https://github.com/xtermjs/xterm.js/pull/1399" target="_blank" rel="noopener">xterm.js</a>.</p>
+<h3 id="Bold-text-bright-color-setting" class="article-heading"><a href="#Bold-text-bright-color-setting" class="headerlink" title="Bold text bright color setting"></a>Bold text bright color setting<a class="article-anchor" href="#Bold-text-bright-color-setting" aria-hidden="true"></a></h3><p>The terminal currently converts all bold text to use the bright color variant. This is a little inconsistent across terminal emulators and is mostly around for legacy reasons. You can now turn this automatic conversion off to allow the use of non-bright colors for bold text.</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"terminal.integrated.drawBoldTextInBrightColors"</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>This came in as an upstream community contribution to <a href="https://github.com/xtermjs/xterm.js/pull/1391" target="_blank" rel="noopener">xterm.js</a>.</p>
+<h2 id="Debugging" class="article-heading"><a href="#Debugging" class="headerlink" title="Debugging"></a>Debugging<a class="article-anchor" href="#Debugging" aria-hidden="true"></a></h2><h3 id="Floating-debug-toolbar" class="article-heading"><a href="#Floating-debug-toolbar" class="headerlink" title="Floating debug toolbar"></a>Floating debug toolbar<a class="article-anchor" href="#Floating-debug-toolbar" aria-hidden="true"></a></h3><p>In the previous milestone, we have introduced a new setting to dock the debug toolbar in the Debug view (<code>&quot;debug.toolBarLocation&quot;: &quot;docked&quot;</code>). In this milestone, we reviewed user feedback and tried to improve the floating toolbar behavior as well (<code>&quot;debug.toolBarLocation&quot;: &quot;floating&quot;</code>).</p>
+<p>The <a href="https://github.com/Microsoft/vscode/issues/52490" target="_blank" rel="noopener">consensus</a> from feedback was that the toolbar should always be visible (independent from which view is active) and that it should not hide anything (for instance the editor tabs). Therefore, we’ve “unchained” the floating toolbar by allowing it to be dragged to the editor area. This should help users that heavily use editor tabs but also want to see the debug toolbar at all times.</p>
+<p><img src="images/1_25/debugtoolbar.gif" alt="debug toolbar"></p>
+<p>Since the existing <code>debug.hideActionBar</code> setting is handled by the value <code>hidden</code> with the <code>debug.toolBarLocation</code> setting, we are now <strong>removing</strong> <code>debug.hideActionBar</code>.</p>
+<h2 id="Languages" class="article-heading"><a href="#Languages" class="headerlink" title="Languages"></a>Languages<a class="article-anchor" href="#Languages" aria-hidden="true"></a></h2><h3 id="TypeScript-2-9-2" class="article-heading"><a href="#TypeScript-2-9-2" class="headerlink" title="TypeScript 2.9.2"></a>TypeScript 2.9.2<a class="article-anchor" href="#TypeScript-2-9-2" aria-hidden="true"></a></h3><p>VS Code now ships with TypeScript 2.9.2. This minor release fixes a number of bugs and improves stability. You can read about the complete set of changes <a href="https://github.com/Microsoft/TypeScript/milestone/73?closed=1" target="_blank" rel="noopener">here</a>.</p>
+<h3 id="Update-import-paths-on-folder-rename" class="article-heading"><a href="#Update-import-paths-on-folder-rename" class="headerlink" title="Update import paths on folder rename"></a>Update import paths on folder rename<a class="article-anchor" href="#Update-import-paths-on-folder-rename" aria-hidden="true"></a></h3><p>Last release brought automatic import path updating when you move or rename a JavaScript or TypeScript file. This feature now also works when you move or rename a directory. Again, by default, VS Code will prompt you if we can update paths. You can control the prompting behavior with the <code>javascript.updateImportsOnFileMove.enabled</code> and <code>typescript.updateImportsOnFileMove.enabled</code> settings.</p>
+<p>Valid values are:</p>
+<ul>
+<li><code>&quot;prompt&quot;</code> - The default. Asks if paths should be updated.</li>
+<li><code>&quot;always&quot;</code> - Always automatically update paths.</li>
+<li><code>&quot;never&quot;</code> - Do not update paths automatically and do not prompt.</li>
+</ul>
+<h3 id="Hierarchical-Markdown-document-symbols" class="article-heading"><a href="#Hierarchical-Markdown-document-symbols" class="headerlink" title="Hierarchical Markdown document symbols"></a>Hierarchical Markdown document symbols<a class="article-anchor" href="#Hierarchical-Markdown-document-symbols" aria-hidden="true"></a></h3><p>The built-in Markdown support uses the new <code>DocumentSymbol</code> API to make sure Markdown headers are properly nested in the Outline view.</p>
+<p><img src="images/1_25/md-outline.png" alt="The Outline view for a Markdown document"></p>
+<h3 id="New-CSS-pseudo-selectors-and-pseudo-elements-from-MDN" class="article-heading"><a href="#New-CSS-pseudo-selectors-and-pseudo-elements-from-MDN" class="headerlink" title="New CSS pseudo selectors and pseudo elements from MDN"></a>New CSS pseudo selectors and pseudo elements from MDN<a class="article-anchor" href="#New-CSS-pseudo-selectors-and-pseudo-elements-from-MDN" aria-hidden="true"></a></h3><p>In the April release, we started <a href="https://code.visualstudio.com/updates/v1_23#_improved-css-support-for-new-properties" target="_blank" rel="noopener">sourcing data</a> from Mozilla Developer Network for up-to-date CSS/SCSS/Less support. In this release, we added the following pseudo selectors / elements:</p>
+<ul>
+<li><code>:defined | :dir | :focus-visible | :focus-within | :placeholder-shown</code></li>
+<li><code>::-moz-range-progress | ::-moz-range-thumb | ::-moz-range-track | ::-webkit-progress-inner-value | ::grammar-error | ::placeholder</code></li>
+</ul>
+<p><img src="images/1_25/css-pseudo-selectors-elements.png" alt="CSS Pseudo Selectors and Elements"></p>
+<h3 id="Improved-accuracy-of-Browser-Compatibility-Data" class="article-heading"><a href="#Improved-accuracy-of-Browser-Compatibility-Data" class="headerlink" title="Improved accuracy of Browser Compatibility Data"></a>Improved accuracy of Browser Compatibility Data<a class="article-anchor" href="#Improved-accuracy-of-Browser-Compatibility-Data" aria-hidden="true"></a></h3><p>Thanks to <a href="https://github.com/mdn/browser-compat-data" target="_blank" rel="noopener">mdn/browser-compat-data</a>, we brought this section from MDN to our CSS/SCSS/Less completions:</p>
+<p><img src="images/1_25/css-justify-items.png" alt="CSS justify-items"></p>
+<p>The <code>justify-items</code> property, alongside many other CSS properties for CSS Grid Layout, has been supported in Edge since version 16. By sourcing data from MDN, VS Code keeps browser compatibility data for CSS features up-to-date.</p>
+<h3 id="Graceful-handling-of-unknown-At-Rules" class="article-heading"><a href="#Graceful-handling-of-unknown-At-Rules" class="headerlink" title="Graceful handling of unknown At-Rules"></a>Graceful handling of unknown At-Rules<a class="article-anchor" href="#Graceful-handling-of-unknown-At-Rules" aria-hidden="true"></a></h3><p>People who are using CSS pre-processors may use custom at-rules that are compiled to valid CSS at build time. Previously, VS Code could not parse or handle such at-rules. In this release, we have better support for at-rules, so that they:</p>
+<ul>
+<li>Receive correct syntax highlighting as they still abide by CSS syntax.</li>
+<li>No longer generate errors at incorrect locations.</li>
+<li>Generate correct errors that can be controlled by <code>css.lint.unknownAtRules</code>.</li>
+</ul>
+<p><img src="images/1_25/css-unknown-atrules.png" alt="CSS Unknown At-Rules"></p>
+<h2 id="Extensions" class="article-heading"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions<a class="article-anchor" href="#Extensions" aria-hidden="true"></a></h2><h3 id="New-default-view-for-Extensions-view" class="article-heading"><a href="#New-default-view-for-Extensions-view" class="headerlink" title="New default view for Extensions view"></a>New default view for Extensions view<a class="article-anchor" href="#New-default-view-for-Extensions-view" aria-hidden="true"></a></h3><p>Until now, the default view for the Extensions view contained a section for <strong>Installed</strong> extensions and another for <strong>Recommended</strong> extensions. The presence of installed but disabled extensions among the enabled ones made it hard to interact with the latter. We now provide a new default, where the <strong>Enabled</strong> extensions are shown first, followed by a section for <strong>Recommended</strong> extensions, and, at the bottom, a collapsed section for <strong>Disabled</strong> extensions.</p>
+<p>You can always re-order, collapse/expand, or hide any of these sections.</p>
+<p><img src="images/1_25/defaultExtensionsView.png" alt="Default Extensions View"></p>
+<h3 id="Dismiss-extension-recommendations" class="article-heading"><a href="#Dismiss-extension-recommendations" class="headerlink" title="Dismiss extension recommendations"></a>Dismiss extension recommendations<a class="article-anchor" href="#Dismiss-extension-recommendations" aria-hidden="true"></a></h3><p>We recommend extensions to you based on the files you have opened and your workspace environment. We understand that not every recommendation might be appropriate for your project and so you can now dismiss specific recommendations.</p>
+<p>To dismiss a recommendation, click on the extension item to open the Details pane and then press the <strong>Ignore Recommendation</strong> button. Ignored recommendations will no longer be recommended to you.</p>
+<p><img src="images/1_25/dismiss.gif" alt="Dismiss Recommendations"></p>
+<h3 id="Manage-workspace-recommendations" class="article-heading"><a href="#Manage-workspace-recommendations" class="headerlink" title="Manage workspace recommendations"></a>Manage workspace recommendations<a class="article-anchor" href="#Manage-workspace-recommendations" aria-hidden="true"></a></h3><p>You could already configure a set of extensions to be recommended for users of your workspace using <a href="https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions" target="_blank" rel="noopener">workspace recommendations</a> in an <code>extensions.json</code> file. Managing these recommendations is now much easier. Click on any extension in the Extensions view to open the Details pane. You can then use the new commands below to add recommendations or black-list certain extensions that you don’t want recommended for users of your workspace.</p>
+<ul>
+<li>Extensions: Add to Recommended Extensions (Workspace)</li>
+<li>Extensions: Add to Recommended Extensions (Workspace Folder)</li>
+<li>Extensions: Ignore Recommended Extension (Workspace)</li>
+<li>Extensions: Ignore Recommended Extension (Workspace Folder)</li>
+</ul>
+<h2 id="Language-Packs" class="article-heading"><a href="#Language-Packs" class="headerlink" title="Language Packs"></a>Language Packs<a class="article-anchor" href="#Language-Packs" aria-hidden="true"></a></h2><p>VS Code now ships with only English as the display language and other <a href="https://code.visualstudio.com/docs/getstarted/locales#_available-locales" target="_blank" rel="noopener">languages</a> rely on Language Packs installable from the VS Code <a href="https://marketplace.visualstudio.com/search?target=VSCode&amp;category=Language%20Packs&amp;sortBy=Downloads" target="_blank" rel="noopener">Marketplace</a>. You should not notice this change if you had installed a Language Pack when prompted by the 1.23 or 1.24 versions of VS Code. If you are upgrading from an older version of VS Code or have a fresh installation, you will see a prompt to install the Language Pack of your OS’s UI language. Additional Language Packs can be installed from the Marketplace using the Extensions view (<span class="dynamic-keybinding" data-osx="⇧⌘X" data-win="Ctrl+Shift+X" data-linux="Ctrl+Shift+X"><span class="keybinding">⇧⌘X</span> (Windows, Linux <span class="keybinding">Ctrl+Shift+X</span>)</span>).</p>
+<p>To summarize:</p>
+<ul>
+<li>If you update from VS Code version 1.22 or older to 1.25, the display language will be English and VS Code will prompt you to install the Language Pack for the OS’s UI language, if such a Language Pack is available in the Marketplace.</li>
+<li>If you updated from 1.23 or 1.24 to 1.25, you should already have been prompted to install the Language Pack for the UI language. If you did so, 1.25 will start as normal and the display language is presented as the chosen UI language. If you didn’t install a Language Pack, then you will be prompted to do so.</li>
+<li>Fresh installs of VS Code, version 1.25 or higher, will prompt you to install a Language Pack if an appropriate one is available in the Marketplace.</li>
+</ul>
+<h2 id="Preview-Features" class="article-heading"><a href="#Preview-Features" class="headerlink" title="Preview Features"></a>Preview Features<a class="article-anchor" href="#Preview-Features" aria-hidden="true"></a></h2><p>Preview features are not ready for release but are functional enough to use. We welcome your early feedback while they are under development.</p>
+<h3 id="New-Settings-Editor" class="article-heading"><a href="#New-Settings-Editor" class="headerlink" title="New Settings Editor"></a>New Settings Editor<a class="article-anchor" href="#New-Settings-Editor" aria-hidden="true"></a></h3><p>In this milestone, we continued work on a GUI for editing settings. It’s still a preview, but if you’d like to try it out, you can open it with the <strong>Preferences: Open Settings (Preview)</strong> command. We would like to hear any feedback you have - you can leave it on <a href="https://github.com/Microsoft/vscode/issues/50249" target="_blank" rel="noopener">this GitHub issue</a>.</p>
+<p><img src="images/1_25/settings-editor.png" alt="New Settings Editor"></p>
+<p>Some of the new changes compared to last month are:</p>
+<ul>
+<li>A “table of contents” (TOC) that organizes settings into new categories.</li>
+<li>A cleaned up and refreshed layout for the setting rows.</li>
+<li>The “Reset” button has been removed - editing a setting to its default value will remove it from <code>settings.json</code>.</li>
+</ul>
+<p>Also, try the <code>&quot;workbench.settings.settingsSearchTocBehavior&quot;</code> setting to see three different options (<code>show</code>, <code>hide</code>, <code>filter</code>) for the “table of contents” while searching settings, and let us know which option you prefer.</p>
+<h3 id="User-setup-for-Windows" class="article-heading"><a href="#User-setup-for-Windows" class="headerlink" title="User setup for Windows"></a>User setup for Windows<a class="article-anchor" href="#User-setup-for-Windows" aria-hidden="true"></a></h3><p>Windows users now have a new <strong>Preview</strong> setup package available, which does not require Administrator privileges to install. This setup package also provides a smoother background update experience. This feature is only available on Insiders for now, as we’d like more feedback during July in order to provide the best experience for our Stable user base.</p>
+<p>Here are the download links for the Insiders user setup packages:</p>
+<ul>
+<li><a href="https://vscode-update.azurewebsites.net/latest/win32-x64-user/insider" target="_blank" rel="noopener">Windows 64 bit</a></li>
+<li><a href="https://vscode-update.azurewebsites.net/latest/win32-user/insider" target="_blank" rel="noopener">Windows 32 bit</a></li>
+</ul>
+<h3 id="Custom-title-bar-and-menus-for-Windows-Linux" class="article-heading"><a href="#Custom-title-bar-and-menus-for-Windows-Linux" class="headerlink" title="Custom title bar and menus for Windows/Linux"></a>Custom title bar and menus for Windows/Linux<a class="article-anchor" href="#Custom-title-bar-and-menus-for-Windows-Linux" aria-hidden="true"></a></h3><p>Windows and Linux users can now use the <code>window.titleBarStyle</code> setting value <code>custom</code> and we’ve implemented a new menu bar to match. The setting is not yet enabled by default but can be turned on with the <code>window.titleBarStyle</code> setting.</p>
+<p>With the setting enabled for Windows and Linux, the old menu bar will be replaced with a new menu bar that matches your light or dark theme. The new menu bar also comes with some enhancements such as top-level keyboard navigation with the arrow keys. Lastly, the menus throughout the product will also match the new menu bar.</p>
+<p><img src="images/1_25/custom_title.png" alt="Custom title bar and menu bar"></p>
+<p>We will continue to improve the new menus and title bar as well as address issues tagged with the <a href="https://github.com/Microsoft/vscode/labels/workbench-title" target="_blank" rel="noopener"><code>workbench-title</code></a> or <a href="https://github.com/Microsoft/vscode/labels/workbench-menu" target="_blank" rel="noopener"><code>workbench-menu</code></a> labels.</p>
+<h3 id="Terminal-Dynamic-texture-atlas" class="article-heading"><a href="#Terminal-Dynamic-texture-atlas" class="headerlink" title="Terminal: Dynamic texture atlas"></a>Terminal: Dynamic texture atlas<a class="article-anchor" href="#Terminal-Dynamic-texture-atlas" aria-hidden="true"></a></h3><p>An experimental setting has been added to enable the new “dynamic texture atlas” for the <a href="https://code.visualstudio.com/blogs/2017/10/03/terminal-renderer" target="_blank" rel="noopener">terminal canvas</a>. This changes the caching strategy used by the terminal to store character glyphs. Instead of being a fixed set of glyphs on the default background, glyphs are now added to the texture atlas as they are required and regardless of the background being used. This should reduce the first terminal start up time, reduce rendering time of characters not using the default background, as well as improving overall rendering performance.</p>
+<p>This will eventually be the default, for now you can opt-in with the following setting:</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"terminal.integrated.experimentalTextureCachingStrategy"</span>: <span class="string">"dynamic"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>This came in as an upstream community contribution to <a href="https://github.com/xtermjs/xterm.js/pull/1327" target="_blank" rel="noopener">xterm.js</a>.</p>
+<h2 id="Extension-Authoring" class="article-heading"><a href="#Extension-Authoring" class="headerlink" title="Extension Authoring"></a>Extension Authoring<a class="article-anchor" href="#Extension-Authoring" aria-hidden="true"></a></h2><h3 id="Grid-Editor-Layout-ViewColumn" class="article-heading"><a href="#Grid-Editor-Layout-ViewColumn" class="headerlink" title="Grid Editor Layout: ViewColumn"></a>Grid Editor Layout: ViewColumn<a class="article-anchor" href="#Grid-Editor-Layout-ViewColumn" aria-hidden="true"></a></h3><p>There are only a few API adjustments to support the new grid editor layout feature. Most notably, there is a new <code>ViewColumn.Beside</code> action that can be used to open an editor to the side of the active one. With the grid editor layout, there is no longer a limit in the number of opened editors, so using that option will always create a new editor to the side of the active one unless there is already some space to the side. Depending on the user setting <code>workbench.editor.openSideBySideDirection</code>, this can either be to the right or below the editor.</p>
+<p>The <code>ViewColumn</code> value for text editors and webviews still goes by the order of appearance in the editor area from left to right as shown below:</p>
+<p><img src="images/1_25/grid-numbering.png" alt="Grid Editor Numbering"></p>
+<p>Even though the <code>ViewColumn</code> enumeration was extended all the way to <code>ViewColumn.Nine</code>, a <code>TextEditor</code> will always have a number assigned as view column as long as it is contained in the grid.</p>
+<p>When an editor group is moved or an editor group is closed, the <code>onDidChangeTextEditorViewColumn</code> event is fired as before.</p>
+<h3 id="Grid-Editor-Layout-New-Commands" class="article-heading"><a href="#Grid-Editor-Layout-New-Commands" class="headerlink" title="Grid Editor Layout: New Commands"></a>Grid Editor Layout: New Commands<a class="article-anchor" href="#Grid-Editor-Layout-New-Commands" aria-hidden="true"></a></h3><p>Even though the change to the API is minimal to support the new grid editor layout, extensions can still make use of the grid editor layout by leveraging new commands that were added (see the <a href="#new-commands">New Commands</a> section for a complete overview).</p>
+<p>The new <code>vscode.setEditorLayout</code> deserves a bit of explanation as it allows you to change the overall editor layout with a single command and arguments. The layout is described as object with an initial (optional) orientation (<code>0</code> = horizontal, <code>1</code> = vertical) and an array of editor <code>groups</code> within. Each editor group can have a <code>size</code> and another array of editor <code>groups</code> that will be laid out orthogonal to the orientation. If editor group sizes are provided, their sum must be <code>1</code> to be applied per row or column.</p>
+<p>Example for a 2x2 grid:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&#123; orientation: 0, groups: [&#123; groups: [&#123;&#125;, &#123;&#125;], size: 0.5 &#125;, &#123; groups: [&#123;&#125;, &#123;&#125;], size: 0.5 &#125;] &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Editors-open-in-active-ViewColumn-by-default" class="article-heading"><a href="#Editors-open-in-active-ViewColumn-by-default" class="headerlink" title="Editors open in active ViewColumn by default"></a>Editors open in active ViewColumn by default<a class="article-anchor" href="#Editors-open-in-active-ViewColumn-by-default" aria-hidden="true"></a></h3><p>If no <code>ViewColumn</code> is provided when opening a text editor or webview , VS Code now defaults to opening in the currently active editor group, instead of opening it in <code>ViewColumn.One</code>. If you want to preserve the previous behavior, just pass in <code>ViewColumn.One</code> when opening.</p>
+<h3 id="Preselected-Completion-Items" class="article-heading"><a href="#Preselected-Completion-Items" class="headerlink" title="Preselected Completion Items"></a>Preselected Completion Items<a class="article-anchor" href="#Preselected-Completion-Items" aria-hidden="true"></a></h3><p>Extension that provide completion items can now marks them as ‘preselected’. That is useful when many completions exist but some are more likely to be selected. An example of this is when the user is assigning known variable types. This feature also lets extensions select more commonly used completions, such as favoring <code>console.log</code> over <code>console.dirxml</code>.</p>
+<p>The API addition is <code>&#39;CompletionItem#preselect: boolean&#39;</code> and when many preselected items exists, the one with the highest rank is selected.</p>
+<h3 id="Document-Symbols" class="article-heading"><a href="#Document-Symbols" class="headerlink" title="Document Symbols"></a>Document Symbols<a class="article-anchor" href="#Document-Symbols" aria-hidden="true"></a></h3><p>To get the most out of the new Outline view tree, extensions should modify their <code>DocumentSymbolProviders</code> to return <code>DocumentSymbols</code>. This is a new type added and tailored towards the needs of the outline tree. It supports representing a hierarchy of document symbols and allows differentiating between the range that defines a symbol and the selection range that identifies a symbol.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">         +--/**</span><br><span class="line">         |   * Some Comment</span><br><span class="line">&lt;range&gt;--|   */</span><br><span class="line">         |  <span class="built_in">export</span> <span class="keyword">function</span> <span class="function"><span class="title">fooFunction</span></span>() &#123;</span><br><span class="line">         |                  +----------+</span><br><span class="line">         +--&#125;                   |</span><br><span class="line">                                |</span><br><span class="line">                          &lt;selection range&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="Readonly-file-system-provider" class="article-heading"><a href="#Readonly-file-system-provider" class="headerlink" title="Readonly file system provider"></a>Readonly file system provider<a class="article-anchor" href="#Readonly-file-system-provider" aria-hidden="true"></a></h3><p>A file system provider can now be registered as <code>readonly</code>. VS Code will respect this flag by disabling all the mutating commands on the resources coming from that file system provider. Editors will also be opened in readonly mode for those readonly resources.</p>
+<h3 id="Custom-views" class="article-heading"><a href="#Custom-views" class="headerlink" title="Custom views"></a>Custom views<a class="article-anchor" href="#Custom-views" aria-hidden="true"></a></h3><p><strong>Tree view visibility</strong></p>
+<p>You can now check if the tree view is visible or not using the following newly added property and event to <code>TreeView</code>:</p>
+<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * `true` if the [tree view](#TreeView) is visible otherwise `false`.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">readonly visible: <span class="built_in">boolean</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Event that is fired when [visibility](TreeView.visible) has changed</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">readonly onDidChangeVisibility: Event&lt;TreeViewVisibilityChangeEvent&gt;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * The event that is fired when there is a change in [tree view's visibility](#TreeView.visible)</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> TreeViewVisibilityChangeEvent &#123;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * `true` if the [tree view](#TreeView) is visible otherwise `false`.</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  readonly visible: <span class="built_in">boolean</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>Selection Listener</strong></p>
+<p>A new selection change event was added to the tree view to listen to the selection changes:</p>
+<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Event that is fired when the [selection](#TreeView.selection) has changed</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">readonly onDidChangeSelection: Event&lt;TreeViewSelectionChangeEvent&lt;T&gt;&gt;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * The event that is fired when there is a change in [tree view's selection](#TreeView.selection)</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> TreeViewSelectionChangeEvent&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * Selected elements.</span></span><br><span class="line"><span class="comment">  */</span></span><br><span class="line">  readonly selection: T[];</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>Reveal and Focus</strong></p>
+<p>You can now reveal and focus an element in the tree view by setting the focus option to <code>true</code> while calling the <code>reveal</code> API.</p>
+<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line">reveal(element: T, options?: &#123; select?: <span class="built_in">boolean</span>, focus?: <span class="built_in">boolean</span> &#125;): Thenable&lt;<span class="built_in">void</span>&gt;;</span><br></pre></td></tr></table></figure>
+<h3 id="New-Theme-colors" class="article-heading"><a href="#New-Theme-colors" class="headerlink" title="New Theme colors"></a>New Theme colors<a class="article-anchor" href="#New-Theme-colors" aria-hidden="true"></a></h3><p>There are two new theme colors for the background color of empty editor groups, a feature that came out of the work to support grid editor layout:</p>
+<ul>
+<li><code>editorGroup.emptyBackground</code>: Background color of an empty editor group.</li>
+<li><code>editorGroup.focusedEmptyBorder</code>: Border color of an empty editor group that is focused.</li>
+</ul>
+<p><img src="images/1_25/grid-background.png" alt="Grid Editor Group Background"></p>
+<ul>
+<li><code>editorPane.background</code>: Background color of the editor pane visible on the left and right side of the centered editor layout</li>
+</ul>
+<p><img src="images/1_25/editorPaneBackground.png" alt="Editor Pane Background"></p>
+<h3 id="Deprecated-Theme-colors" class="article-heading"><a href="#Deprecated-Theme-colors" class="headerlink" title="Deprecated Theme colors"></a>Deprecated Theme colors<a class="article-anchor" href="#Deprecated-Theme-colors" aria-hidden="true"></a></h3><p>The theme color <code>editorGroup.background</code> is no longer supported with the introduction of the grid editor layout feature.</p>
+<h3 id="Rename-Command" class="article-heading"><a href="#Rename-Command" class="headerlink" title="Rename Command"></a>Rename Command<a class="article-anchor" href="#Rename-Command" aria-hidden="true"></a></h3><p>The rename-command (<code>editor.action.rename</code>) can now be invoked with an <code>Uri</code> and a <code>Position</code> and the editor will initiate a rename operation accordingly. For example:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line">vscode.commands.executeCommand(</span><br><span class="line">  <span class="string">'editor.action.rename'</span>,</span><br><span class="line">  [vscode.Uri.file(<span class="string">'/my/file.abc'</span>), <span class="keyword">new</span> vscode.Position(<span class="number">14</span>, <span class="number">7</span>)]</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h3 id="DiagnosticTag" class="article-heading"><a href="#DiagnosticTag" class="headerlink" title="DiagnosticTag"></a>DiagnosticTag<a class="article-anchor" href="#DiagnosticTag" aria-hidden="true"></a></h3><p>Diagnostic tags allow extensions to attach additional metadata about a diagnostic. VS Code uses this metadata to tweak how these diagnostics are rendered.</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> diag = <span class="keyword">new</span> vscode.Diagnostic(<span class="keyword">new</span> Range(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>), <span class="string">'Unused'</span>);</span><br><span class="line">diag.tags = [vscode.Diagnostic.Unnecessary]</span><br></pre></td></tr></table></figure>
+<p><code>DiagnosticTag.Unnecessary</code> indicates that a diagnostic is for unreferenced or unreachable source code. Any source code marked with <code>DiagnosticTag.Unnecessary</code> will be rendered faded out. The amount of fading is controlled by the <code>&quot;editorUnnecessaryCode.opacity&quot;</code> theme color. For example, <code>&quot;editorUnnecessaryCode.opacity&quot;: &quot;#000000c0&quot;</code> will render the code with 75% opacity. For high contrast themes, use the <code>&quot;editorUnnecessaryCode.border&quot;</code> theme color to underline unnecessary code instead of fading it out.</p>
+<h3 id="WebviewPanel-active-and-WebviewPanel-visible" class="article-heading"><a href="#WebviewPanel-active-and-WebviewPanel-visible" class="headerlink" title="WebviewPanel.active and WebviewPanel.visible"></a>WebviewPanel.active and WebviewPanel.visible<a class="article-anchor" href="#WebviewPanel-active-and-WebviewPanel-visible" aria-hidden="true"></a></h3><p>Webview panels have two new readonly properties:</p>
+<ul>
+<li><code>active</code> - tracks when the panel is focused.</li>
+<li><code>visible</code>- tracks when the panel is on the screen.</li>
+</ul>
+<h3 id="Webview-persistence" class="article-heading"><a href="#Webview-persistence" class="headerlink" title="Webview persistence"></a>Webview persistence<a class="article-anchor" href="#Webview-persistence" aria-hidden="true"></a></h3><p>The webview API has been extended with support for saving and restoring the state of a webview.</p>
+<p>The <code>getState</code> and <code>setState</code> APIs inside the webview context allow a webview to save state and get a state object that is persisted even when the webview itself goes into a background tab.</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Inside a webview's JavaScript</span></span><br><span class="line"><span class="keyword">const</span> vscode = acquireVsCodeApi();</span><br><span class="line"></span><br><span class="line"><span class="comment">// Look up old state (will be undefined if no state is set)</span></span><br><span class="line"><span class="keyword">const</span> oldState = vscode.getState();</span><br><span class="line"></span><br><span class="line"><span class="comment">// Update the persisted state.</span></span><br><span class="line"><span class="comment">// You can save off any json serializable object.</span></span><br><span class="line"><span class="keyword">if</span> (oldState) &#123;</span><br><span class="line">    vscode.setState(&#123; <span class="attr">count</span>: oldState.count + <span class="number">1</span> &#125;);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    vscode.setState(&#123; <span class="attr">count</span>: <span class="number">1</span> &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>In addition, extensions can register a <code>WebviewPanelSerializer</code> that allows webviews of a given type to be persisted across restarts of VS Code. To enable this, the extension must call <code>vscode.window.registerWebviewPanelSerializer</code> in its activation method.</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">activate</span>(<span class="params">context: vscode.ExtensionContext</span>) </span>&#123;</span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    vscode.window.registerWebviewPanelSerializer(<span class="string">'myWebviewType'</span>, &#123;</span><br><span class="line">        <span class="keyword">async</span> deserializeWebviewPanel(webviewPanel: vscode.WebviewPanel, state: <span class="built_in">any</span>) &#123;</span><br><span class="line">            <span class="comment">// `state` is the state persisted using `setState` inside the webview</span></span><br><span class="line">            <span class="built_in">console</span>.log(<span class="string">`Got state: <span class="subst">$&#123;state&#125;</span>`</span>);</span><br><span class="line"></span><br><span class="line">            <span class="keyword">new</span> MyWebview(webviewPanel);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>The extension must also add a <code>onWebviewPanel</code> activation event:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">"activationEvents": [</span><br><span class="line">    ...,</span><br><span class="line">    <span class="string">"onWebviewPanel:catCoding"</span></span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<p>The new webview persistence APIs are documented on the <a href="https://code.visualstudio.com/docs/extensions/webview" target="_blank" rel="noopener">webview extension authoring page</a>. The <a href="https://github.com/Microsoft/vscode-extension-samples/tree/master/webview-sample" target="_blank" rel="noopener">example webview extension</a> also demonstrates how to use these new APIs.</p>
+<h3 id="Language-Packs-Minimal-translations" class="article-heading"><a href="#Language-Packs-Minimal-translations" class="headerlink" title="Language Packs: Minimal translations"></a>Language Packs: Minimal translations<a class="article-anchor" href="#Language-Packs-Minimal-translations" aria-hidden="true"></a></h3><p>VS Code will now prompt users for an available Language Pack in the language of the Language Pack. Below is an example recommending a Simplified Chinese Language Pack in Simplified Chinese and English.</p>
+<p><img src="images/1_25/lang-pack-recommendation.png" alt="Language Pack recommendation"></p>
+<p>This display requires that Language Pack authors translate the following minimal translation strings in their Language Pack:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   showLanguagePackExtensions: localize(<span class="string">'showLanguagePackExtensions'</span>, <span class="string">"Search language packs in the Marketplace to change the display language to &#123;0&#125;."</span>),</span><br><span class="line">   searchMarketplace: localize(<span class="string">'searchMarketplace'</span>, <span class="string">"Search Marketplace"</span>),</span><br><span class="line">   installAndRestartMessage: localize(<span class="string">'installAndRestartMessage'</span>, <span class="string">"Install language pack to change the display language to &#123;0&#125;."</span>),</span><br><span class="line">   installAndRestart: localize(<span class="string">'installAndRestart'</span>, <span class="string">"Install and Restart"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Language-Server-Protocol-Inspector" class="article-heading"><a href="#Language-Server-Protocol-Inspector" class="headerlink" title="Language Server Protocol Inspector"></a>Language Server Protocol Inspector<a class="article-anchor" href="#Language-Server-Protocol-Inspector" aria-hidden="true"></a></h3><p>Language Servers that use <a href="https://github.com/Microsoft/vscode-languageserver-node" target="_blank" rel="noopener">vscode-languageclient</a> can specify a setting <code>[langId].trace.server</code> to receive logging support. Although the generated log is valuable for understanding the LSP communication between VS Code and Language Servers, the log can be long and hard to extract useful information from.</p>
+<p>With the new LSP Inspector, you now have a tool to help understand LSP logs: <a href="https://microsoft.github.io/language-server-protocol/inspector/" target="_blank" rel="noopener">https://microsoft.github.io/language-server-protocol/inspector/</a></p>
+<p>In the Inspector, you can:</p>
+<ul>
+<li>Scan through the requests, responses, and notifications between Language Client and Server.</li>
+<li>Filter through logs using search or predefined filters to locate useful information.</li>
+</ul>
+<p><img src="images/1_25/lsp-inspector.gif" alt="LSP Inspector"></p>
+<p>The Inspector can be useful for debugging Language extensions. You can ask users to attach LSP logs to their bug reports and use the Inspector to analyze the logs.</p>
+<p>The <a href="https://code.visualstudio.com/docs/extensions/example-language-server#_logging-support-for-language-server" target="_blank" rel="noopener">Language Server Guide</a> has been updated to include sections on logging support and the features of the LSP Inspector.</p>
+<h3 id="Language-Server-End-to-End-testing" class="article-heading"><a href="#Language-Server-End-to-End-testing" class="headerlink" title="Language Server: End to End testing"></a>Language Server: End to End testing<a class="article-anchor" href="#Language-Server-End-to-End-testing" aria-hidden="true"></a></h3><p>A section on End to End Testing has been added to the <a href="https://code.visualstudio.com/docs/extensions/example-language-server#_testing-the-language-server" target="_blank" rel="noopener">Language Server Guide</a>.</p>
+<p>Compared to unit-testing components of Language Servers, End to End tests open a workspace in VS Code, launch the Language extension in the Extension Host, and make assertions against the real behavior of the Language extension. This makes mocking workspace and VS Code state easy and checks real VS Code behavior.</p>
+<h3 id="Language-Server-Refreshed-guide" class="article-heading"><a href="#Language-Server-Refreshed-guide" class="headerlink" title="Language Server: Refreshed guide"></a>Language Server: Refreshed guide<a class="article-anchor" href="#Language-Server-Refreshed-guide" aria-hidden="true"></a></h3><p>The <a href="https://code.visualstudio.com/docs/extensions/example-language-server" target="_blank" rel="noopener">Language Server Guide</a> has received a refresh. Major improvements include:</p>
+<ul>
+<li>Sections on Logging and Testing as mentioned above.</li>
+<li>Explanation of Language Server Protocol, Language Server, and the relationship between them.</li>
+<li>Updated illustrations of LSP and Language Server.</li>
+<li>Updated <a href="https://github.com/Microsoft/vscode-extension-samples/tree/master/lsp-sample" target="_blank" rel="noopener">lsp-sample</a> sample code.</li>
+<li>More references to the <a href="https://microsoft.github.io/language-server-protocol/" target="_blank" rel="noopener">LSP Website</a>.</li>
+</ul>
+<h2 id="Proposed-Extension-APIs" class="article-heading"><a href="#Proposed-Extension-APIs" class="headerlink" title="Proposed Extension APIs"></a>Proposed Extension APIs<a class="article-anchor" href="#Proposed-Extension-APIs" aria-hidden="true"></a></h2><p>Every milestone comes with new proposed APIs and extension authors can try them out. As always we are keen on your feedback. This is what you have to do to try out a proposed API:</p>
+<ul>
+<li>You must use Insiders because proposed APIs change frequently.</li>
+<li>You must have this line in the <code>package.json</code> file of your extension: <code>&quot;enableProposedAPI&quot;: true</code>.</li>
+<li>Copy the latest version of the <a href="https://github.com/Microsoft/vscode/blob/master/src/vs/vscode.proposed.d.ts" target="_blank" rel="noopener"><code>vscode.proposed.d.ts</code></a> file into your project.</li>
+</ul>
+<p>Note that you cannot publish an extension that uses a proposed API. We may likely make breaking changes in the next release and we never want to break existing extensions.</p>
+<h3 id="WorkspaceEdit-can-create-rename-delete-Files" class="article-heading"><a href="#WorkspaceEdit-can-create-rename-delete-Files" class="headerlink" title="WorkspaceEdit can create/rename/delete Files"></a>WorkspaceEdit can create/rename/delete Files<a class="article-anchor" href="#WorkspaceEdit-can-create-rename-delete-Files" aria-hidden="true"></a></h3><p>We have added a proposed API that extends <code>WorkspaceEdit</code> so that it can be used to create, rename, and delete files or folders. This is useful for complex refactorings, for example renaming a file when a type is being renamed, but should also enable other scenarios.</p>
+<h3 id="Local-Rename-Events" class="article-heading"><a href="#Local-Rename-Events" class="headerlink" title="Local Rename Events"></a>Local Rename Events<a class="article-anchor" href="#Local-Rename-Events" aria-hidden="true"></a></h3><p>We are proposing two events that fire before and after a rename occurs. They are called <code>onWillRenameFile</code> and <code>onDidRenameFile</code> and they allow an extension to react or participate in the rename.</p>
+<h3 id="QuickInput-API" class="article-heading"><a href="#QuickInput-API" class="headerlink" title="QuickInput API"></a>QuickInput API<a class="article-anchor" href="#QuickInput-API" aria-hidden="true"></a></h3><p>The new <code>QuickPick</code> and <code>InputBox</code> APIs allow for more flexible collection of user input than the existing <code>showQuickPick</code> and <code>showInputBox</code> APIs. With the new APIs, you create a new instance of an input object on which you then register event handlers and set properties according to your use case:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">namespace</span> <span class="built_in">window</span> &#123;</span><br><span class="line">  <span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">createQuickPick</span>&lt;<span class="title">T</span> <span class="title">extends</span> <span class="title">QuickPickItem</span>&gt;(<span class="params"></span>): <span class="title">QuickPick</span>&lt;<span class="title">T</span>&gt;</span>;</span><br><span class="line">  <span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">createInputBox</span>(<span class="params"></span>): <span class="title">InputBox</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>There are samples of QuickInput API usage in a <a href="https://github.com/Microsoft/vscode-extension-samples/tree/master/quickinput-sample" target="_blank" rel="noopener">sample extension</a>.</p>
+<p>The multi-step input sample:</p>
+<p><img src="images/1_25/multistepinput.gif" alt="Multi-step input sample"></p>
+<p>If the existing <code>showQuickPick</code> and <code>showInputBox</code> APIs are not flexible enough, use the new <code>QuickPick</code> and <code>InputBox</code> APIs, otherwise keep to the existing ones as these will get the job done quicker.</p>
+<p>Use issue <a href="https://github.com/Microsoft/vscode/issues/53327" target="_blank" rel="noopener">#53327</a> for feedback and discussion.</p>
+<h3 id="Terminal-renderers" class="article-heading"><a href="#Terminal-renderers" class="headerlink" title="Terminal renderers"></a>Terminal renderers<a class="article-anchor" href="#Terminal-renderers" aria-hidden="true"></a></h3><p>The concept of a terminal “renderer” is being proposed. A terminal renderer is basically a terminal instance within the terminal panel but it has no backing process, instead the <strong>extension</strong> acts as the process. This is useful for implementing a terminal multiplexer within VS Code where the extension has access to the in/out pipes of some process, which are hooked then up to the terminal renderer. The <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare" target="_blank" rel="noopener">Live Share extension</a> is planning on using this new API to improve the stability and maintainability of its shared terminal support.</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">namespace</span> <span class="built_in">window</span> &#123;</span><br><span class="line">  <span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">createTerminalRenderer</span>(<span class="params">name: <span class="built_in">string</span></span>): <span class="title">TerminalRenderer</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> TerminalRenderer &#123;</span><br><span class="line">  name: <span class="built_in">string</span>;</span><br><span class="line">  dimensions: TerminalDimensions | <span class="literal">undefined</span>;</span><br><span class="line">  readonly maximumDimensions: TerminalDimensions | <span class="literal">undefined</span>;</span><br><span class="line">  readonly terminal: Terminal;</span><br><span class="line">  readonly onDidAcceptInput: Event&lt;<span class="built_in">string</span>&gt;;</span><br><span class="line">  readonly onDidChangeMaximumDimensions: Event&lt;TerminalDimensions&gt;;</span><br><span class="line">  write(text: <span class="built_in">string</span>): <span class="built_in">void</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> TerminalDimensions &#123;</span><br><span class="line">  readonly columns: <span class="built_in">number</span>;</span><br><span class="line">  readonly rows: <span class="built_in">number</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Another example use case is an extension creating its own REPL. This works by the extension listening to every character press and acting when the <code>Enter</code> key is pressed:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> shell = vscode.window.createTerminalRenderer(<span class="string">'My Extension REPL'</span>);</span><br><span class="line">shell.write(<span class="string">'Type and press enter to echo the text\r\n\r\n'</span>);</span><br><span class="line">shell.terminal.show();</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> line = <span class="string">''</span>;</span><br><span class="line">shell.onDidAcceptInput(<span class="function"><span class="params">data</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">if</span> (data === <span class="string">'\r'</span>) &#123;</span><br><span class="line">    shell.write(<span class="string">`\r\necho: "<span class="subst">$&#123;line&#125;</span>"\r\n\n`</span>);</span><br><span class="line">    line = <span class="string">''</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    line += data;</span><br><span class="line">    shell.write(data);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h3 id="Tracking-the-active-terminal" class="article-heading"><a href="#Tracking-the-active-terminal" class="headerlink" title="Tracking the active terminal"></a>Tracking the active terminal<a class="article-anchor" href="#Tracking-the-active-terminal" aria-hidden="true"></a></h3><p>We are proposing new extension APIs for the Integrated Terminal that make it possible to track the active terminal, similar to <code>window.activeTextEditor</code> and <code>window.onDidChangeActiveTextEditor</code>:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">namespace</span></span><br><span class="line">  <span class="keyword">export</span> <span class="keyword">const</span> activeTerminal: Terminal | <span class="literal">undefined</span>;</span><br><span class="line">  <span class="keyword">export</span> <span class="keyword">const</span> onDidChangeActiveTerminal: Event&lt;Terminal | <span class="literal">undefined</span>&gt;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Terminal-onData-renamed" class="article-heading"><a href="#Terminal-onData-renamed" class="headerlink" title="Terminal.onData renamed"></a>Terminal.onData renamed<a class="article-anchor" href="#Terminal-onData-renamed" aria-hidden="true"></a></h3><p><code>Terminal.onData</code> has been renamed to <code>onDidWriteData</code> in order to align with our <a href="https://github.com/Microsoft/vscode/wiki/Extension-API-guidelines#event-naming" target="_blank" rel="noopener">naming guidelines</a>:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> Terminal &#123;</span><br><span class="line">  onDidWriteData: Event&lt;<span class="built_in">string</span>&gt;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="DefinitionLink" class="article-heading"><a href="#DefinitionLink" class="headerlink" title="DefinitionLink"></a>DefinitionLink<a class="article-anchor" href="#DefinitionLink" aria-hidden="true"></a></h3><p>Definition links allow definition providers to return additional metadata with definitions:</p>
+<figure class="highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">interface</span> DefinitionLink &#123;</span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * Span of the symbol being defined in the source file.</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * Used as the underlined span for mouse definition hover. Defaults to the word range at</span></span><br><span class="line"><span class="comment">    * the definition position.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   origin?: Range;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * The resource identifier of the definition.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   uri: Uri;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * The full range of the definition.</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * For a class definition for example, this would be the entire body of the class definition.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   range: Range;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * The span of the symbol definition.</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * For a class definition, this would be the class name itself in the class definition.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   selectionRange?: Range;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>This additional information is used by VS Code to improve the user experience for <strong>Go to Definition</strong> actions.</p>
+<p>To use <code>DefinitionLink</code>, a <code>DefinitionProvider</code> must currently implement a <code>provideDefinition2</code> method. Once the <code>DefinitionLink</code> API is stabilized, we plan to remove <code>provideDefinition2</code> and update the normal <code>DefinitionProvider.provideDefinition</code> method to also allow returning <code>DefinitionLink</code>.</p>
+<h2 id="New-Commands" class="article-heading"><a href="#New-Commands" class="headerlink" title="New Commands"></a>New Commands<a class="article-anchor" href="#New-Commands" aria-hidden="true"></a></h2><table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Command</th>
+<th>Command id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Split the editor to the orthogonal direction that is configured via <code>openSideBySideDirection</code></td>
+<td><code>workbench.action.splitEditorOrthogonal</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Show the opened editors of the active editor group</td>
+<td><code>workbench.action.showEditorsInActiveGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move the active editor to the last editor group</td>
+<td><code>workbench.action.moveEditorToLastGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move the active editor group up</td>
+<td><code>workbench.action.moveActiveEditorGroupUp</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move the active editor group down</td>
+<td><code>workbench.action.moveActiveEditorGroupDown</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the last editor group</td>
+<td><code>workbench.action.focusLastEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the first editor group</td>
+<td><code>workbench.action.firstEditorInGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Close the active editor group (will merge opened editors into the neighbor group)</td>
+<td><code>workbench.action.closeGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Close all editor groups</td>
+<td><code>workbench.action.closeAllEditorGroups</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Close the active editor group and its editors</td>
+<td><code>workbench.action.closeEditorsAndGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Split the active editor up</td>
+<td><code>workbench.action.splitEditorUp</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Split the active editor down</td>
+<td><code>workbench.action.splitEditorDown</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Split the active editor to the left</td>
+<td><code>workbench.action.splitEditorLeft</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Split the active editor to the right</td>
+<td><code>workbench.action.splitEditorRight</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Merge the editors of all editor groups into the active one</td>
+<td><code>workbench.action.joinAllGroups</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the fourth editor group (will create a new editor group as needed)</td>
+<td><code>workbench.action.focusFourthEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the fifth editor group (will create a new editor group as needed)</td>
+<td><code>workbench.action.focusFifthEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the sixth editor group (will create a new editor group as needed)</td>
+<td><code>workbench.action.focusSixthEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the seventh editor group (will create a new editor group as needed)</td>
+<td><code>workbench.action.focusSeventhEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the eighth editor group (will create a new editor group as needed)</td>
+<td><code>workbench.action.focusEighthEditorGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move active editor into the left editor group</td>
+<td><code>workbench.action.moveEditorToLeftGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move active editor into the right editor group</td>
+<td><code>workbench.action.moveEditorToRightGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move active editor into the above editor group</td>
+<td><code>workbench.action.moveEditorToAboveGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Move active editor into the below editor group</td>
+<td><code>workbench.action.moveEditorToBelowGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the editor group to the left</td>
+<td><code>workbench.action.focusLeftGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the editor group to the right</td>
+<td><code>workbench.action.focusRightGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the editor group to the top</td>
+<td><code>workbench.action.focusAboveGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Focus the editor group to the bottom</td>
+<td><code>workbench.action.focusBelowGroup</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Create a new editor group to the left</td>
+<td><code>workbench.action.newEditorGroupLeft</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Create a new editor group to the right</td>
+<td><code>workbench.action.newEditorGroupRight</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Create a new editor group to the top</td>
+<td><code>workbench.action.newEditorGroupAbove</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Create a new editor group to the bottom</td>
+<td><code>workbench.action.newEditorGroupBelow</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Single</td>
+<td><code>workbench.action.editorLayoutSingle</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Two Columns</td>
+<td><code>workbench.action.editorLayoutTwoColumns</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Three Columns</td>
+<td><code>workbench.action.editorLayoutThreeColumns</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Two Rows</td>
+<td><code>workbench.action.editorLayoutTwoRows</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Three Rows</td>
+<td><code>workbench.action.editorLayoutThreeRows</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Two by Two Grid</td>
+<td><code>workbench.action.editorLayoutTwoByTwoGrid</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Two Columns (Bottom)</td>
+<td><code>workbench.action.editorLayoutTwoColumnsBottom</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Two Columns (Right)</td>
+<td><code>workbench.action.editorLayoutTwoColumnsRight</code></td>
+</tr>
+<tr>
+<td><span class="dynamic-keybinding"></span></td>
+<td>Switch to editor layout: Centered</td>
+<td><code>workbench.action.editorLayoutCentered</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="New-layoutEditorGroups-command" class="article-heading"><a href="#New-layoutEditorGroups-command" class="headerlink" title="New layoutEditorGroups command"></a>New <code>layoutEditorGroups</code> command<a class="article-anchor" href="#New-layoutEditorGroups-command" aria-hidden="true"></a></h3><p>The <code>layoutEditorGroups</code> command lets you create an editor group layout and assign it a keybinding. The layout is described as an object with an initial (optional) orientation (<code>0</code> = horizontal, <code>1</code> = vertical) and an array of editor <code>groups</code> within. Each editor group can have a <code>size</code> and another array of editor <code>groups</code> that will be laid out orthogonal to the orientation. If editor group sizes are provided, their sum must be <code>1</code> to be applied per row or column. For example:</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"key"</span>: <span class="string">"Ctrl+0"</span>,</span><br><span class="line">    <span class="attr">"command"</span>: <span class="string">"layoutEditorGroups"</span>,</span><br><span class="line">    <span class="attr">"args"</span>: &#123;</span><br><span class="line">        <span class="attr">"orientation"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="attr">"groups"</span>: [&#123; <span class="attr">"size"</span>: <span class="number">0.2</span> &#125;, &#123; <span class="attr">"size"</span>: <span class="number">0.6</span> &#125;, &#123; <span class="attr">"size"</span>: <span class="number">0.2</span>, <span class="attr">"groups"</span>: [&#123;&#125;, &#123;&#125;] &#125;]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>This will produce the following layout:</p>
+<p><img src="images/1_25/grid-layout-applied.png" alt="Grid Editor Layout Applied"></p>
+<h2 id="Removed-Commands" class="article-heading"><a href="#Removed-Commands" class="headerlink" title="Removed Commands"></a>Removed Commands<a class="article-anchor" href="#Removed-Commands" aria-hidden="true"></a></h2><table>
+<thead>
+<tr>
+<th>Command id</th>
+<th>Replacement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>workbench.action.showEditorsInFirstGroup</code></td>
+<td>Use <code>showEditorsInActiveGroup</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.showEditorsInSecondGroup</code></td>
+<td>Use <code>showEditorsInActiveGroup</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.showEditorsInThirdGroup</code></td>
+<td>Use <code>showEditorsInActiveGroup</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.moveEditorToSecondGroup</code></td>
+<td>Use a <code>workbench.action.moveEditor*</code> command instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.moveEditorToThirdGroup</code></td>
+<td>Use a <code>workbench.action.moveEditor*</code> command instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.openLastEditorInGroup</code></td>
+<td>Use <code>lastEditorInGroup</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.openFolderAsWorkspaceInNewWindow</code></td>
+<td>Use <code>duplicateWorkspaceInNewWindow</code> instead</td>
+</tr>
+<tr>
+<td><code>editor.debug.action.toggleColumnBreakpoint</code></td>
+<td>Use <code>toggleInlineBreakpoint</code> instead</td>
+</tr>
+</tbody>
+</table>
+<h3 id="History-Navigation-Commands" class="article-heading"><a href="#History-Navigation-Commands" class="headerlink" title="History Navigation Commands"></a>History Navigation Commands<a class="article-anchor" href="#History-Navigation-Commands" aria-hidden="true"></a></h3><table>
+<thead>
+<tr>
+<th>Command id</th>
+<th>Replacement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>search.history.showPrevious</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>search.history.showNext</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>search.replaceHistory.showPrevious</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>search.replaceHistory.showNext</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>search.history.showPreviousIncludePattern</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>search.history.showNextIncludePattern</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>search.history.showPreviousExcludePattern</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>search.history.showNextExcludePattern</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>find.history.showPrevious</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>find.history.showNext</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.terminal.findWidget.history.showPrevious</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>workbench.action.terminal.findWidget.history.showNext</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>editor.action.extensioneditor.showPreviousFindTerm</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>editor.action.extensioneditor.showNextFindTerm</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>editor.action.webvieweditor.showPreviousFindTerm</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>editor.action.webvieweditor.showNextFindTerm</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+<tr>
+<td><code>repl.action.historyPrevious</code></td>
+<td>Use <code>history.showPrevious</code> instead</td>
+</tr>
+<tr>
+<td><code>repl.action.historyNext</code></td>
+<td>Use <code>history.showNext</code> instead</td>
+</tr>
+</tbody>
+</table>
+<h2 id="New-Documentation" class="article-heading"><a href="#New-Documentation" class="headerlink" title="New Documentation"></a>New Documentation<a class="article-anchor" href="#New-Documentation" aria-hidden="true"></a></h2><h3 id="New-Python-Flask-tutorial" class="article-heading"><a href="#New-Python-Flask-tutorial" class="headerlink" title="New Python Flask tutorial"></a>New Python Flask tutorial<a class="article-anchor" href="#New-Python-Flask-tutorial" aria-hidden="true"></a></h3><p>There is a new <a href="https://code.visualstudio.com/docs/python/tutorial-flask?utm_source=VsCode&amp;utm_medium=ReleaseNotes" target="_blank" rel="noopener">Using Flask in Visual Studio Code</a> tutorial showing how you can quickly create, edit, and debug a Python <a href="http://flask.pocoo.org/" target="_blank" rel="noopener">Flask</a> web application in VS Code.</p>
+<h3 id="Updated-website-deployment-tutorial" class="article-heading"><a href="#Updated-website-deployment-tutorial" class="headerlink" title="Updated website deployment tutorial"></a>Updated website deployment tutorial<a class="article-anchor" href="#Updated-website-deployment-tutorial" aria-hidden="true"></a></h3><p>We’ve updated the <a href="https://code.visualstudio.com/tutorials/static-website/getting-started?utm_source=VsCode&amp;utm_medium=ReleaseNotes" target="_blank" rel="noopener">Deploy static website to Azure</a> tutorial for creating and deploying a static website using <a href="https://docs.microsoft.com/azure/storage/" target="_blank" rel="noopener">Azure Storage</a>. Website deployment is simplified with the new features provided by <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage" target="_blank" rel="noopener">Azure Storage extension</a>.</p>
+<h2 id="Notable-Changes" class="article-heading"><a href="#Notable-Changes" class="headerlink" title="Notable Changes"></a>Notable Changes<a class="article-anchor" href="#Notable-Changes" aria-hidden="true"></a></h2><ul>
+<li><a href="https://github.com/Microsoft/vscode/issues/35361" target="_blank" rel="noopener">35361</a>: Limited native window tabs functionality in macOS high sierra</li>
+<li><a href="https://github.com/Microsoft/vscode/issues/40158" target="_blank" rel="noopener">40158</a>: Fix breakpoint verification UI for the multi session case</li>
+<li><a href="https://github.com/Microsoft/vscode/issues/42726" target="_blank" rel="noopener">42726</a>: Open File: unable to open a file with spaces in name if absolute path is provided</li>
+<li><a href="https://github.com/Microsoft/vscode/issues/49591" target="_blank" rel="noopener">49591</a>: Have a “Close All” button as editor action in the toolbar</li>
+<li><a href="https://github.com/Microsoft/vscode/issues/51200" target="_blank" rel="noopener">51200</a>: Process monitor on Linux shows wrong process load</li>
+<li><a href="https://github.com/Microsoft/vscode/issues/51440" target="_blank" rel="noopener">51440</a>: Allow closing notifications with middle mouse button</li>
+</ul>
+<h2 id="Thank-You" class="article-heading"><a href="#Thank-You" class="headerlink" title="Thank You"></a>Thank You<a class="article-anchor" href="#Thank-You" aria-hidden="true"></a></h2><p>Last but certainly not least, a big <em><strong>Thank You!</strong></em> to the following folks that helped to make VS Code even better:</p>
+<p>Contributions to <code>vscode</code>:</p>
+<ul>
+<li><a href="https://github.com/bitshiftza" target="_blank" rel="noopener">bitshiftza (@bitshiftza)</a>: Fix for issue #39458 <a href="https://github.com/Microsoft/vscode/pull/52506" target="_blank" rel="noopener">PR #52506</a></li>
+<li><a href="https://github.com/brentwang23" target="_blank" rel="noopener">@brentwang23</a>: Implement word part move and delete for issue #46203 <a href="https://github.com/Microsoft/vscode/pull/48023" target="_blank" rel="noopener">PR #48023</a></li>
+<li><a href="https://github.com/chenhowa" target="_blank" rel="noopener">Howard Chen (@chenhowa)</a>: Await git.pullFrom and git.pushTo to ensure any failures display an … <a href="https://github.com/Microsoft/vscode/pull/49167" target="_blank" rel="noopener">PR #49167</a></li>
+<li><a href="https://github.com/chryw" target="_blank" rel="noopener">Cherry Wang (@chryw)</a>: Markdown and common toolbar icons consistency pass <a href="https://github.com/Microsoft/vscode/pull/50484" target="_blank" rel="noopener">PR #50484</a></li>
+<li><a href="https://github.com/CoenraadS" target="_blank" rel="noopener">@CoenraadS</a>: Add setting for highlightActiveIndentGuide #49148 <a href="https://github.com/Microsoft/vscode/pull/49298" target="_blank" rel="noopener">PR #49298</a></li>
+<li><a href="https://github.com/danielfrankcom" target="_blank" rel="noopener">Daniel Frankcom (@danielfrankcom)</a>: Added background ANSI colour codes <a href="https://github.com/Microsoft/vscode/pull/49764" target="_blank" rel="noopener">PR #49764</a></li>
+<li><a href="https://github.com/Dari-K" target="_blank" rel="noopener">Darius Keeley (@Dari-K)</a>: Fix #51533 <a href="https://github.com/Microsoft/vscode/pull/52075" target="_blank" rel="noopener">PR #52075</a></li>
+<li><a href="https://github.com/ddruker" target="_blank" rel="noopener">David  (@ddruker)</a>: [GIT EXTENSION] Add Custom Foreground Color for Files Added to Index <a href="https://github.com/Microsoft/vscode/pull/46066" target="_blank" rel="noopener">PR #46066</a></li>
+<li><a href="https://github.com/EbXpJ6bp" target="_blank" rel="noopener">EbXpJ6bp (@EbXpJ6bp)</a>: Improve Dependencies and Contributions UI in the Extension editor <a href="https://github.com/Microsoft/vscode/pull/52126" target="_blank" rel="noopener">PR #52126</a></li>
+<li><a href="https://github.com/Gawdl3y" target="_blank" rel="noopener">Schuyler Cebulskie (@Gawdl3y)</a>: Add V8 version to about dialog and prettify it <a href="https://github.com/Microsoft/vscode/pull/51511" target="_blank" rel="noopener">PR #51511</a></li>
+<li><a href="https://github.com/ghost" target="_blank" rel="noopener">Deleted user (@ghost)</a>: [Fix] Add a missing return type for _hue2rgb  <a href="https://github.com/Microsoft/vscode/pull/51285" target="_blank" rel="noopener">PR #51285</a></li>
+<li><a href="https://github.com/gnijuohz" target="_blank" rel="noopener">Jing Zhou (@gnijuohz)</a>: Show warning when git commit input box only contains whitespaces <a href="https://github.com/Microsoft/vscode/pull/45254" target="_blank" rel="noopener">PR #45254</a></li>
+<li><a href="https://github.com/go2sh" target="_blank" rel="noopener">Christoph Seitz (@go2sh)</a>: Add transformations for placeholders <a href="https://github.com/Microsoft/vscode/pull/51621" target="_blank" rel="noopener">PR #51621</a></li>
+<li><a href="https://github.com/Hirse" target="_blank" rel="noopener">Jan Pilzer (@Hirse)</a>: Add gitignore language <a href="https://github.com/Microsoft/vscode/pull/51026" target="_blank" rel="noopener">PR #51026</a></li>
+<li><a href="https://github.com/iansan5653" target="_blank" rel="noopener">Ian Sanders (@iansan5653)</a>: Limit highlighting on drag over open editors by checking if dragged item can be dropped <a href="https://github.com/Microsoft/vscode/pull/52623" target="_blank" rel="noopener">PR #52623</a></li>
+<li><a href="https://github.com/jwhitmarsh" target="_blank" rel="noopener">James (@jwhitmarsh)</a>: Allow emmet actions inside script tags with text/ng-template as type <a href="https://github.com/Microsoft/vscode/pull/51849" target="_blank" rel="noopener">PR #51849</a></li>
+<li><a href="https://github.com/katakonst" target="_blank" rel="noopener">Catalin Pirvu (@katakonst)</a>: Restore focus on message field when git include multiple projects. <a href="https://github.com/Microsoft/vscode/pull/46068" target="_blank" rel="noopener">PR #46068</a></li>
+<li><a href="https://github.com/Krzysztof-Cieslak" target="_blank" rel="noopener">Krzysztof Cieślak (@Krzysztof-Cieslak)</a>: Add support for <code>1.txt</code> format in incrementFileName <a href="https://github.com/Microsoft/vscode/pull/50869" target="_blank" rel="noopener">PR #50869</a></li>
+<li><a href="https://github.com/LeonardoBraga" target="_blank" rel="noopener">Leonardo Braga (@LeonardoBraga)</a><ul>
+<li>Improves support to Windows UNC files in a “yet-to-be-saved” state <a href="https://github.com/Microsoft/vscode/pull/52518" target="_blank" rel="noopener">PR #52518</a></li>
+<li>Statusbar polishing <a href="https://github.com/Microsoft/vscode/pull/52149" target="_blank" rel="noopener">PR #52149</a></li>
+<li>Fixes stuck hover widget when triggered manually, with “editor.hover”: false <a href="https://github.com/Microsoft/vscode/pull/52147" target="_blank" rel="noopener">PR #52147</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/malmaud" target="_blank" rel="noopener">Jon Malmaud (@malmaud)</a>: Fix typo in extensions doc. <a href="https://github.com/Microsoft/vscode/pull/51509" target="_blank" rel="noopener">PR #51509</a></li>
+<li><a href="https://github.com/momoto" target="_blank" rel="noopener">Momoto, Seiji (@momoto)</a>: Fix typo in main.contribution.ts <a href="https://github.com/Microsoft/vscode/pull/52104" target="_blank" rel="noopener">PR #52104</a></li>
+<li><a href="https://github.com/NahomAgidew" target="_blank" rel="noopener">Nahom Abi (@NahomAgidew)</a>: Fix to #43625: spin sync icon on push <a href="https://github.com/Microsoft/vscode/pull/52146" target="_blank" rel="noopener">PR #52146</a></li>
+<li><a href="https://github.com/oriash93" target="_blank" rel="noopener">Ori Ashual (@oriash93)</a>: Added option whether to show terminal reuse alert <a href="https://github.com/Microsoft/vscode/pull/44461" target="_blank" rel="noopener">PR #44461</a></li>
+<li><a href="https://github.com/oygen87" target="_blank" rel="noopener">Eugen Cazacu (@oygen87)</a>: delete a comment <a href="https://github.com/Microsoft/vscode/pull/50971" target="_blank" rel="noopener">PR #50971</a></li>
+<li><a href="https://github.com/qcz" target="_blank" rel="noopener">Dániel Tar (@qcz)</a><ul>
+<li>Fix typo in taskConfiguration.ts <a href="https://github.com/Microsoft/vscode/pull/52067" target="_blank" rel="noopener">PR #52067</a></li>
+<li>Improve i18n of new task identifier related strings <a href="https://github.com/Microsoft/vscode/pull/52019" target="_blank" rel="noopener">PR #52019</a></li>
+<li>Fix a replace gone wrong in typescript-language-features/package.nls <a href="https://github.com/Microsoft/vscode/pull/52704" target="_blank" rel="noopener">PR #52704</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/reyronald" target="_blank" rel="noopener">Ronald Rey (@reyronald)</a>: Add “Recommend” action to extension viewlet <a href="https://github.com/Microsoft/vscode/pull/50419" target="_blank" rel="noopener">PR #50419</a></li>
+<li><a href="https://github.com/rianadon" target="_blank" rel="noopener">@rianadon</a>: [WIP] Colored titlebar for Windows <a href="https://github.com/Microsoft/vscode/pull/39972" target="_blank" rel="noopener">PR #39972</a></li>
+<li><a href="https://github.com/ryenus" target="_blank" rel="noopener">ryenus (@ryenus)</a>: Allow customization of the viewlets in the default Extensions view <a href="https://github.com/Microsoft/vscode/pull/47766" target="_blank" rel="noopener">PR #47766</a></li>
+<li><a href="https://github.com/shizengzhou" target="_blank" rel="noopener">Shizeng Zhou (@shizengzhou)</a>: Remove the border. Fix #48765 <a href="https://github.com/Microsoft/vscode/pull/48825" target="_blank" rel="noopener">PR #48825</a></li>
+<li><a href="https://github.com/SirHoneyBiscuit" target="_blank" rel="noopener">Benjamin Smith (@SirHoneyBiscuit)</a>: Add option to hide/show release notes on update #44020 <a href="https://github.com/Microsoft/vscode/pull/44271" target="_blank" rel="noopener">PR #44271</a></li>
+<li><a href="https://github.com/alfonsoperez" target="_blank" rel="noopener">Alfonso Perez (@alfonsoperez)</a>: Keep deleting lines when triggering deleteAllLeft on column 1 <a href="https://github.com/Microsoft/vscode/pull/28392" target="_blank" rel="noopener">PR #28392</a></li>
+<li><a href="https://github.com/spalger" target="_blank" rel="noopener">Spencer (@spalger)</a>: Fix DeleteAllLeft when executed from column 1 <a href="https://github.com/Microsoft/vscode/pull/40876" target="_blank" rel="noopener">PR #40876</a></li>
+<li><a href="https://github.com/subylan" target="_blank" rel="noopener">Benjamin Crawford (@subylan)</a>: max_old_space_size flag out of range for 32-bit builds. <a href="https://github.com/Microsoft/vscode/pull/52792" target="_blank" rel="noopener">PR #52792</a></li>
+<li><a href="https://github.com/TomasHubelbauer" target="_blank" rel="noopener">Tomáš Hübelbauer (@TomasHubelbauer)</a><ul>
+<li>Hide ahead push arrow if remote push URL is no_push  <a href="https://github.com/Microsoft/vscode/pull/45341" target="_blank" rel="noopener">PR #45341</a></li>
+<li>Mention the mouse middle button drag to rectangle select feature in the Interactive Playground <a href="https://github.com/Microsoft/vscode/pull/49205" target="_blank" rel="noopener">PR #49205</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/vemoo" target="_blank" rel="noopener">@vemoo</a>: fix for “Cannot Create keybinding to restart a specific Task”  <a href="https://github.com/Microsoft/vscode/pull/36474" target="_blank" rel="noopener">PR #36474</a></li>
+<li><a href="https://github.com/wistcc" target="_blank" rel="noopener">Winner Crespo (@wistcc)</a>: Adding warning when tokenization is skipped <a href="https://github.com/Microsoft/vscode/pull/51265" target="_blank" rel="noopener">PR #51265</a></li>
+<li><a href="https://github.com/zhuowei" target="_blank" rel="noopener">@zhuowei</a>: Fix #35361: fix native tabs on macOS 10.13 <a href="https://github.com/Microsoft/vscode/pull/52775" target="_blank" rel="noopener">PR #52775</a></li>
+</ul>
+<p>Contributions to <code>vscode-vsce</code>:</p>
+<ul>
+<li><a href="https://github.com/JimiC" target="_blank" rel="noopener">Jimi (Dimitris) Charalampidis (@JimiC)</a>: Add ability to publish using  ‘npm version’ <a href="https://github.com/Microsoft/vscode-vsce/pull/263" target="_blank" rel="noopener">PR #263</a></li>
+<li><a href="https://github.com/kevcunnane" target="_blank" rel="noopener">Kevin Cunnane (@kevcunnane)</a>: Support Yarn use in package command <a href="https://github.com/Microsoft/vscode-vsce/pull/260" target="_blank" rel="noopener">PR #260</a></li>
+<li><a href="https://github.com/ritwickdey" target="_blank" rel="noopener">Ritwick Dey (@ritwickdey)</a>: useYarn parameter while publishing extension <a href="https://github.com/Microsoft/vscode-vsce/pull/268" target="_blank" rel="noopener">PR #268</a></li>
+</ul>
+<p>Contributions to <code>language-server-protocol</code>:</p>
+<ul>
+<li><a href="https://github.com/cmyr" target="_blank" rel="noopener">Colin Rofls (@cmyr)</a>: Fixup typos in specification.md <a href="https://github.com/Microsoft/language-server-protocol/pull/499" target="_blank" rel="noopener">PR #499</a></li>
+<li><a href="https://github.com/LordZamy" target="_blank" rel="noopener">Samarth Wahal (@LordZamy)</a>: Fix typo in spec <a href="https://github.com/Microsoft/language-server-protocol/pull/508" target="_blank" rel="noopener">PR #508</a></li>
+</ul>
+<p>Contributions to <code>vscode-node-debug</code>:</p>
+<ul>
+<li><a href="https://github.com/jramsay" target="_blank" rel="noopener">jramsay (@jramsay)</a>: Enable Loaded Scripts for VS Live Share <a href="https://github.com/Microsoft/vscode-node-debug/pull/180" target="_blank" rel="noopener">PR #180</a></li>
+</ul>
+<p>Contributions to <code>vscode-chrome-debug-core</code>:</p>
+<ul>
+<li><a href="https://github.com/digeff" target="_blank" rel="noopener">@digeff</a>: Fix possible race condition for new and changed scripts <a href="https://github.com/Microsoft/vscode-chrome-debug-core/pull/336" target="_blank" rel="noopener">PR #336</a></li>
+<li><a href="https://github.com/jhnns" target="_blank" rel="noopener">Johannes Ewald (@jhnns)</a>: Fix unsafe array access in internalSourceBreakpoint <a href="https://github.com/Microsoft/vscode-chrome-debug-core/pull/335" target="_blank" rel="noopener">PR #335</a></li>
+</ul>
+<p>Contributions to <code>vscode-chrome-debug</code>:</p>
+<ul>
+<li><a href="https://github.com/changsi-an" target="_blank" rel="noopener">Chance An (@changsi-an)</a><ul>
+<li>Add the supportsLaunchUnelevatedProcessRequest flag to the telemetry. <a href="https://github.com/Microsoft/vscode-chrome-debug/pull/680" target="_blank" rel="noopener">PR #680</a></li>
+<li>Call host to launch Chrome unelevated if host sends supportsLaunchUnelevatedProcessRequest flag. <a href="https://github.com/Microsoft/vscode-chrome-debug/pull/676" target="_blank" rel="noopener">PR #676</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mrcrane" target="_blank" rel="noopener">Michael Crane (@mrcrane)</a><ul>
+<li>Set chrome PID in all launch cases <a href="https://github.com/Microsoft/vscode-chrome-debug/pull/687" target="_blank" rel="noopener">PR #687</a></li>
+</ul>
+</li>
+</ul>
+<p>Contributions to <code>localization</code>:</p>
+<p>There are over 800 members in the Transifex <a href="https://aka.ms/vscodeloc" target="_blank" rel="noopener">VS Code project</a> team with about 100 active contributors every month. We appreciate your contributions, either by providing new translations, voting on translations, or suggesting process improvements.</p>
+<p>Here is a snapshot of contributors for this release. For details about the project including the contributor name list, visit the project site at <a href="https://aka.ms/vscodeloc" target="_blank" rel="noopener">https://aka.ms/vscodeloc</a>.</p>
+<ul>
+<li><strong>French:</strong> Antoine Griffard, Quentin BRETON.</li>
+<li><strong>Italian:</strong> Andrea Dottor, Emilie Rollandin, Aldo Donetti, Luigi Bruno, Piero Azi, Marco Dal Pino, Alessandro Alpi, Emanuele Ricci, Lorthirk, Riccardo Cappello.</li>
+<li><strong>German:</strong> Ettore Atalan.</li>
+<li><strong>Spanish:</strong> Alejandro Medina, Alberto Poblacion, José M. Aguilar.</li>
+<li><strong>Japanese:</strong> Shunya Tajima, Satoshi Kajiura, Seiji Momoto, yoshioms, Hiroyuki Mori, Yuki Ueda, Yano Naoki, Yuichi Nukiyama.</li>
+<li><strong>Chinese (Simplified):</strong> Joel Yang, pluwen, Yurui Zhang, Simon Chan, YF, Vicey Wang.</li>
+<li><strong>Chinese (Traditional):</strong> Duran Hsieh, Winnie Lin, Alan Liu, Alan Tsai, Will 保哥, Han Lin.</li>
+<li><strong>Korean:</strong> Kyunghee Ko.</li>
+<li><strong>Russian:</strong> Ivan Kuzmenko.</li>
+<li><strong>Bulgarian:</strong> Любомир Василев.</li>
+<li><strong>Hungarian:</strong> Tar Dániel, Dóczi Dominik.</li>
+<li><strong>Portuguese (Brazil):</strong> Danilo Dantas, Otacilio Saraiva Maia Neto, Roger Figueiredo, Lucas Miranda, Rafael Oliveira, Yehoshua Oliveira, Bruno Sonnino, Roberto Fonseca.</li>
+<li><strong>Turkish:</strong> Adem Coşkuner, Burak Karahan, Koray Sarıtaş.</li>
+<li><strong>Dutch:</strong> RubenJacobse, Gerald Versluis, Maurits Kammer.</li>
+<li><strong>Finnish:</strong> Feetu Nyrhinen, Jussi Palo, Petri Niinimäki.</li>
+<li><strong>Greek:</strong> Nickolaos Platides, Theodore Tsirpanis, George M, Christos Koutsiaris.</li>
+<li><strong>Indonesian:</strong> Wildan Mubarok, Laurensius Dede Suhardiman, Joseph Aditya P G, G-RiNe Project, Adiyat Mubarak.</li>
+<li><strong>Latvian:</strong> kozete.</li>
+<li><strong>Polish:</strong> Patryk Brejdak, Iwona Kubowicz, Sebastian Baran, Lukasz Woznicki, Mateusz Przybyłowicz.</li>
+<li><strong>Swedish:</strong> Eugen Cazacu.</li>
+<li><strong>Ukrainan:</strong> Fedir Gordiienko, SergZ, Bogdan Surai.</li>
+<li><strong>Vietnamese:</strong> Vuong, Hung Nguyen, Thanh Phu, Brian Nguyen.</li>
+<li><strong>Croatian:</strong> Nikša Mihaica, Bruno Vego.</li>
+<li><strong>English (United Kingdom) :</strong> Matthew John Cheetham.</li>
+</ul>
+
+<p><a id="scroll-to-top" role="button" aria-label="scroll to top" href="#"><span class="icon"></span></a></p>
+<link rel="stylesheet" type="text/css" href="css/inproduct_releasenotes.css">
+              </div>
+              <footer class="article-footer">
+                <time class="article-updated" datetime="2018-07-07T02:43:53.677Z" itemprop="dateModified">Last updated: 2018-07-07</time>
+                
+              </footer>
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <style>.toc-item.toc-level-3{display:none}</style>
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">Contents</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Workbench"><span class="toc-text">Workbench</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Grid-editor-layout"><span class="toc-text">Grid editor layout</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Outline-view"><span class="toc-text">Outline view</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Portable-Mode"><span class="toc-text">Portable Mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Drop-files-and-folders-into-empty-files-explorer"><span class="toc-text">Drop files and folders into empty files explorer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#History-navigation"><span class="toc-text">History navigation</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Editor"><span class="toc-text">Editor</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hover-display-options"><span class="toc-text">Hover display options</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Sub-word-support"><span class="toc-text">Sub-word support</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Suggestion-selections"><span class="toc-text">Suggestion selections</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Snippet-placeholder-transformations"><span class="toc-text">Snippet placeholder transformations</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Integrated-Terminal"><span class="toc-text">Integrated Terminal</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Performance-Improvements"><span class="toc-text">Performance Improvements</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Bold-text-bright-color-setting"><span class="toc-text">Bold text bright color setting</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debugging"><span class="toc-text">Debugging</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Floating-debug-toolbar"><span class="toc-text">Floating debug toolbar</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Languages"><span class="toc-text">Languages</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#TypeScript-2-9-2"><span class="toc-text">TypeScript 2.9.2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Update-import-paths-on-folder-rename"><span class="toc-text">Update import paths on folder rename</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hierarchical-Markdown-document-symbols"><span class="toc-text">Hierarchical Markdown document symbols</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#New-CSS-pseudo-selectors-and-pseudo-elements-from-MDN"><span class="toc-text">New CSS pseudo selectors and pseudo elements from MDN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Improved-accuracy-of-Browser-Compatibility-Data"><span class="toc-text">Improved accuracy of Browser Compatibility Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Graceful-handling-of-unknown-At-Rules"><span class="toc-text">Graceful handling of unknown At-Rules</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Extensions"><span class="toc-text">Extensions</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#New-default-view-for-Extensions-view"><span class="toc-text">New default view for Extensions view</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Dismiss-extension-recommendations"><span class="toc-text">Dismiss extension recommendations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Manage-workspace-recommendations"><span class="toc-text">Manage workspace recommendations</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Language-Packs"><span class="toc-text">Language Packs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Preview-Features"><span class="toc-text">Preview Features</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#New-Settings-Editor"><span class="toc-text">New Settings Editor</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#User-setup-for-Windows"><span class="toc-text">User setup for Windows</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-title-bar-and-menus-for-Windows-Linux"><span class="toc-text">Custom title bar and menus for Windows/Linux</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Terminal-Dynamic-texture-atlas"><span class="toc-text">Terminal: Dynamic texture atlas</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Extension-Authoring"><span class="toc-text">Extension Authoring</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Grid-Editor-Layout-ViewColumn"><span class="toc-text">Grid Editor Layout: ViewColumn</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Grid-Editor-Layout-New-Commands"><span class="toc-text">Grid Editor Layout: New Commands</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Editors-open-in-active-ViewColumn-by-default"><span class="toc-text">Editors open in active ViewColumn by default</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Preselected-Completion-Items"><span class="toc-text">Preselected Completion Items</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Document-Symbols"><span class="toc-text">Document Symbols</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Readonly-file-system-provider"><span class="toc-text">Readonly file system provider</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-views"><span class="toc-text">Custom views</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#New-Theme-colors"><span class="toc-text">New Theme colors</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deprecated-Theme-colors"><span class="toc-text">Deprecated Theme colors</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Rename-Command"><span class="toc-text">Rename Command</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DiagnosticTag"><span class="toc-text">DiagnosticTag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#WebviewPanel-active-and-WebviewPanel-visible"><span class="toc-text">WebviewPanel.active and WebviewPanel.visible</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Webview-persistence"><span class="toc-text">Webview persistence</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Language-Packs-Minimal-translations"><span class="toc-text">Language Packs: Minimal translations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Language-Server-Protocol-Inspector"><span class="toc-text">Language Server Protocol Inspector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Language-Server-End-to-End-testing"><span class="toc-text">Language Server: End to End testing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Language-Server-Refreshed-guide"><span class="toc-text">Language Server: Refreshed guide</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Proposed-Extension-APIs"><span class="toc-text">Proposed Extension APIs</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#WorkspaceEdit-can-create-rename-delete-Files"><span class="toc-text">WorkspaceEdit can create/rename/delete Files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Local-Rename-Events"><span class="toc-text">Local Rename Events</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#QuickInput-API"><span class="toc-text">QuickInput API</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Terminal-renderers"><span class="toc-text">Terminal renderers</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tracking-the-active-terminal"><span class="toc-text">Tracking the active terminal</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Terminal-onData-renamed"><span class="toc-text">Terminal.onData renamed</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DefinitionLink"><span class="toc-text">DefinitionLink</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#New-Commands"><span class="toc-text">New Commands</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#New-layoutEditorGroups-command"><span class="toc-text">New layoutEditorGroups command</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Removed-Commands"><span class="toc-text">Removed Commands</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#History-Navigation-Commands"><span class="toc-text">History Navigation Commands</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#New-Documentation"><span class="toc-text">New Documentation</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#New-Python-Flask-tutorial"><span class="toc-text">New Python Flask tutorial</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Updated-website-deployment-tutorial"><span class="toc-text">Updated website deployment tutorial</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notable-Changes"><span class="toc-text">Notable Changes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thank-You"><span class="toc-text">Thank You</span></a></li></ol>
+              <a href="#" id="article-toc-top">Back to Top</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation"><div class="inner"><div class="accordion"><strong class="sidebar-title">UPDATES</strong><a href="/updates/v1_22.html" class="sidebar-link">March 2018</a><a href="/updates/v1_21.html" class="sidebar-link">February 2018</a><a href="/updates/v1_20.html" class="sidebar-link">January 2018</a><a href="/updates/v1_19.html" class="sidebar-link">November 2017</a><a href="/updates/v1_17.html" class="sidebar-link">September 2017</a><a href="/updates/v1_16.html" class="sidebar-link">August 2017</a><a href="/updates/v1_15.html" class="sidebar-link">July 2017</a><a href="/updates/v1_14.html" class="sidebar-link">June 2017</a><a href="/updates/v1_13.html" class="sidebar-link">May 2017</a><a href="/updates/v1_12.html" class="sidebar-link">April 2017</a><a href="/updates/v1_11.html" class="sidebar-link">March 2017</a><a href="/updates/v1_10.html" class="sidebar-link">February 2017</a><a href="/updates/v1_9.html" class="sidebar-link">January 2017</a><a href="/updates/v1_8.html" class="sidebar-link">December 2016</a><a href="/updates/v1_7.html" class="sidebar-link">October 2016</a><a href="/updates/v1_6.html" class="sidebar-link">September 2016</a><a href="/updates/v1_5.html" class="sidebar-link">August 2016</a><a href="/updates/v1_4.html" class="sidebar-link">July 2016</a><a href="/updates/v1_3.html" class="sidebar-link">June 2016</a></div></div></aside></div></div></div>
+    
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav"><div id="mobile-nav-inner"><ul id="mobile-nav-list"><a href="/docs/" class="mobile-nav-link">Docs</a><a href="/updates/" class="mobile-nav-link">Updates</a></ul><strong class="mobile-nav-title">UPDATES</strong><a href="/updates/v1_22.html" class="mobile-nav-link">March 2018</a><a href="/updates/v1_21.html" class="mobile-nav-link">February 2018</a><a href="/updates/v1_20.html" class="mobile-nav-link">January 2018</a><a href="/updates/v1_19.html" class="mobile-nav-link">November 2017</a><a href="/updates/v1_17.html" class="mobile-nav-link">September 2017</a><a href="/updates/v1_16.html" class="mobile-nav-link">August 2017</a><a href="/updates/v1_15.html" class="mobile-nav-link">July 2017</a><a href="/updates/v1_14.html" class="mobile-nav-link">June 2017</a><a href="/updates/v1_13.html" class="mobile-nav-link">May 2017</a><a href="/updates/v1_12.html" class="mobile-nav-link">April 2017</a><a href="/updates/v1_11.html" class="mobile-nav-link">March 2017</a><a href="/updates/v1_10.html" class="mobile-nav-link">February 2017</a><a href="/updates/v1_9.html" class="mobile-nav-link">January 2017</a><a href="/updates/v1_8.html" class="mobile-nav-link">December 2016</a><a href="/updates/v1_7.html" class="mobile-nav-link">October 2016</a><a href="/updates/v1_6.html" class="mobile-nav-link">September 2016</a><a href="/updates/v1_5.html" class="mobile-nav-link">August 2016</a><a href="/updates/v1_4.html" class="mobile-nav-link">July 2016</a><a href="/updates/v1_3.html" class="mobile-nav-link">June 2016</a></div></nav>
+  <a id="scroll-to-top" role="button" aria-label="scroll to top" onclick="container.scrollTop=0"><span class="icon"></span></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="/js/toc.js"></script><script src="/js/mobile_nav.js"></script><script src="/js/plugins.js"></script></body></html>
